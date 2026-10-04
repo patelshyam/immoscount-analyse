@@ -108,6 +108,12 @@ export function Kanban({ statuses, rows: initial }: { statuses: Status[]; rows: 
   return (
     <div className="space-y-2">
       {error && <p className="text-sm text-red-700">{error}</p>}
+      {rows.length === 0 && (
+        <p className="text-sm text-slate-500">
+          No properties yet — use “Add to app” in the extension or “Save as property” in the
+          calculator. Drag cards between columns to change their status.
+        </p>
+      )}
       <DndContext sensors={sensors} onDragEnd={onDragEnd}>
         <div className="flex gap-3 overflow-x-auto pb-4">
           {statuses.map((s) => (

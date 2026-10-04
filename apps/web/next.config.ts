@@ -10,6 +10,17 @@ const config: NextConfig = {
   outputFileTracingRoot: fileURLToPath(new URL('../../', import.meta.url)),
   transpilePackages: ['@immo/calc', '@immo/data'],
   poweredByHeader: false,
+  async headers() {
+    return [
+      {
+        source: '/share/:token*',
+        headers: [
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+          { key: 'Referrer-Policy', value: 'no-referrer' },
+        ],
+      },
+    ];
+  },
 };
 
 export default config;

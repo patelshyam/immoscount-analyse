@@ -9,6 +9,7 @@ import { db } from '@/lib/db';
 import { propertyLabel, toInput } from '@/lib/properties';
 import { loadAssumptions, loadReference } from '@/lib/reference';
 import { PropertyEditor, type EditableProperty } from './PropertyEditor';
+import { ShareLinks } from './ShareLinks';
 import { StatusChanger } from './StatusChanger';
 
 export const dynamic = 'force-dynamic';
@@ -33,6 +34,7 @@ export default async function PropertyPage({ params }: Props) {
         status: true,
         snapshots: { orderBy: { capturedAt: 'desc' } },
         statusEvents: { orderBy: { at: 'desc' }, include: { fromStatus: true, toStatus: true } },
+        shareLinks: { orderBy: { createdAt: 'desc' } },
       },
     }),
     db.pipelineStatus.findMany({ orderBy: { sortOrder: 'asc' } }),
@@ -132,6 +134,16 @@ export default async function PropertyPage({ params }: Props) {
           </table>
         </section>
       </div>
+      <ShareLinks
+        propertyId={p.id}
+        initial={p.shareLinks.map((l) => ({
+          id: l.id,
+          token: l.token,
+          createdAt: l.createdAt.toISOString(),
+          expiresAt: l.expiresAt?.toISOString() ?? null,
+          revokedAt: l.revokedAt?.toISOString() ?? null,
+        }))}
+      />
     </div>
   );
 }
