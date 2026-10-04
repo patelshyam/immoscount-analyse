@@ -4,3 +4,4 @@ export * from './analyze';
 export * from './mortgage';
 export * from './sensitivity';
 export * from './parse';
+export * from './format';

@@ -1,6 +1,6 @@
 import type { Analysis, RentSource, Verdict } from '@immo/calc';
 import type { ReactNode } from 'react';
-import { fmtEur, fmtNum, fmtPct } from '@/lib/format';
+import { fmtEur, fmtNum, fmtPct } from '@immo/calc';
 
 const VERDICT: Record<Verdict, { label: string; cls: string }> = {
   green: { label: 'Meets target', cls: 'bg-green-100 text-green-800 ring-green-600/30' },

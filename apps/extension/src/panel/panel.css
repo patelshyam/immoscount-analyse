@@ -1,0 +1,220 @@
+/* Rendered inside a Shadow DOM: page CSS can't leak in, ours can't leak out. */
+:host {
+  all: initial;
+}
+.ia-panel,
+.ia-tab {
+  position: fixed;
+  right: 12px;
+  top: 80px;
+  z-index: 2147483646;
+  font:
+    13px/1.4 system-ui,
+    -apple-system,
+    'Segoe UI',
+    sans-serif;
+  color: #0f172a;
+  box-sizing: border-box;
+}
+.ia-panel {
+  width: 340px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.15);
+  padding: 12px;
+}
+.ia-panel * {
+  box-sizing: border-box;
+}
+.ia-tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+  font-weight: 600;
+}
+.ia-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+.ia-title {
+  font-weight: 600;
+}
+.ia-sub,
+.ia-muted {
+  color: #64748b;
+}
+.ia-icon {
+  border: 0;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #64748b;
+}
+.ia-pill {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.ia-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.ia-green {
+  background: #dcfce7;
+  color: #166534;
+}
+.ia-orange {
+  background: #fef3c7;
+  color: #92400e;
+}
+.ia-red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+.ia-unknown {
+  background: #e2e8f0;
+  color: #334155;
+}
+.ia-dot.ia-green {
+  background: #16a34a;
+}
+.ia-dot.ia-orange {
+  background: #f59e0b;
+}
+.ia-dot.ia-red {
+  background: #dc2626;
+}
+.ia-dot.ia-unknown {
+  background: #94a3b8;
+}
+.ia-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.ia-metric {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+.ia-metric span {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+  text-transform: uppercase;
+}
+.ia-metric strong {
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+.ia-neg {
+  color: #b91c1c;
+}
+.ia-seg {
+  display: flex;
+  gap: 2px;
+  margin-top: 4px;
+}
+.ia-seg button {
+  flex: 1;
+  font-size: 11px;
+  padding: 1px 0;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ia-seg button.ia-on {
+  background: #0f172a;
+  color: #fff;
+  border-color: #0f172a;
+}
+.ia-rent {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0;
+}
+.ia-badge {
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #e2e8f0;
+}
+.ia-src-actual {
+  background: #dcfce7;
+}
+.ia-src-override {
+  background: #e0f2fe;
+}
+.ia-src-reference {
+  background: #e0e7ff;
+}
+.ia-src-placeholder_reference {
+  background: #fef3c7;
+}
+.ia-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.ia-field span {
+  display: block;
+  font-size: 11px;
+  color: #64748b;
+}
+.ia-field input,
+.ia-field select {
+  width: 100%;
+  font: inherit;
+  padding: 3px 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background: #fff;
+}
+.ia-details {
+  margin-top: 8px;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 6px;
+}
+.ia-details summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.ia-details table {
+  width: 100%;
+  font-size: 12px;
+  border-collapse: collapse;
+}
+.ia-details td:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.ia-warnings {
+  margin: 8px 0 0;
+  padding: 6px 8px 6px 22px;
+  background: #fffbeb;
+  border: 1px solid #fcd34d;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #78350f;
+}
+.ia-disclaimer {
+  margin: 8px 0 0;
+  font-size: 11px;
+  color: #94a3b8;
+}

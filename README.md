@@ -42,4 +42,27 @@ pnpm check      # lint, typecheck, test, build
   real Mietspiegel values per city and size band; template:
   `packages/data/src/rent-reference.template.csv` (import UI follows in phase 5).
 
-Extension and fixture instructions follow in later phases.
+## Chrome extension
+
+```bash
+pnpm ext:build                     # → apps/extension/.output/chrome-mv3
+```
+
+1. Chrome → `chrome://extensions` → enable **Developer mode** → **Load unpacked** →
+   select `apps/extension/.output/chrome-mv3`.
+2. Open the extension's **Options**: set the API base URL (default `http://127.0.0.1:3000`), paste
+   the API token from the app's **Settings** page, click **Test connection**.
+3. `pnpm ext:dev` runs a dev build with auto-reload.
+
+The extension only reads pages you open yourself; its only network calls go to the local app.
+
+## Capturing portal fixtures
+
+Parsers are built only from real pages you saved. On a listing/search page, open DevTools → Console:
+
+```js
+copy(document.documentElement.outerHTML);
+```
+
+Paste into `apps/extension/test/fixtures/{is24,immowelt}/` as `listing-buy-N.html`,
+`listing-rent-N.html` or `search-N.html`.
