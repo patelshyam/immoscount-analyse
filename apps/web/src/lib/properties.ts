@@ -148,7 +148,12 @@ function snapshotOf(p: Pick<Property, (typeof SNAPSHOT_FIELDS)[number]>) {
 
 /** Decimal vs number vs string-safe comparison. */
 const norm = (v: unknown) => (v == null ? null : typeof v === 'string' ? v : Number(v));
-const changed = (a: unknown, b: unknown) => norm(a) !== norm(b);
+/** Numbers equal within 1e-6 — finer than any Decimal column scale (max 5 places), so float noise like 2.975/100 isn't a change. */
+const changed = (a: unknown, b: unknown) => {
+  const x = norm(a);
+  const y = norm(b);
+  return typeof x === 'number' && typeof y === 'number' ? Math.abs(x - y) > 1e-6 : x !== y;
+};
 
 /**
  * Upsert by (source, externalId). Updates lastSeenAt; only overwrites with values the listing

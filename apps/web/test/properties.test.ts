@@ -137,6 +137,14 @@ describe('POST /api/properties (upsert)', () => {
     expect((tables.property[0]!.lastSeenAt as Date).getTime()).toBeGreaterThan(0);
   });
 
+  it('float noise below DB precision is not a change (2,975 % → 0.029750000000000002)', async () => {
+    await post({ ...LISTING, brokerFeeOverride: 0.02975 }); // as stored by Decimal(6,5)
+    const res = await post({ ...LISTING, brokerFeeOverride: 2.975 / 100 });
+    expect(2.975 / 100).not.toBe(0.02975); // the noise is real
+    expect(await res.json()).toMatchObject({ snapshot: false });
+    expect(tables.snapshot).toHaveLength(1);
+  });
+
   it('revisit with a changed price records a snapshot', async () => {
     await post(LISTING);
     const res = await post({ ...LISTING, price: 459000 });
