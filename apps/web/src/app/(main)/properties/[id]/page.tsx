@@ -3,10 +3,12 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { AnalysisTools } from '@/components/AnalysisTools';
 import { AnalysisView } from '@/components/AnalysisView';
+import { NearbyView } from '@/components/NearbyView';
 import { StatusBadge } from '@/components/StatusBadge';
 import { fullAnalysis } from '@/lib/analysis';
 import { db } from '@/lib/db';
 import { propertyLabel, toInput } from '@/lib/properties';
+import { cachedNearby } from '@/lib/nearby/lookup';
 import { loadAssumptions, loadReference } from '@/lib/reference';
 import { PropertyEditor, type EditableProperty } from './PropertyEditor';
 import { ShareLinks } from './ShareLinks';
@@ -44,6 +46,10 @@ export default async function PropertyPage({ params }: Props) {
   if (!p) notFound();
 
   const { analysis, schedule, sensitivity } = fullAnalysis(toInput(p), assumptions, ref);
+  const address = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')]
+    .filter(Boolean)
+    .join(', ');
+  const nearby = address ? await cachedNearby(address) : null;
   const n = (d: { toString(): string } | null) => (d == null ? null : Number(d));
   const editable: EditableProperty = {
     id: p.id,
@@ -134,6 +140,18 @@ export default async function PropertyPage({ params }: Props) {
           </table>
         </section>
       </div>
+      <section className="space-y-2">
+        <h2 className="text-lg font-semibold">Nearby (2 km)</h2>
+        <NearbyView
+          initialAddress={address}
+          initial={nearby}
+          hint={
+            p.street
+              ? undefined
+              : 'The listing shows no street — results would be around the PLZ/city centre. Add the street if you know it.'
+          }
+        />
+      </section>
       <ShareLinks
         propertyId={p.id}
         initial={p.shareLinks.map((l) => ({

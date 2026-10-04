@@ -76,6 +76,11 @@ After rebuilding (`pnpm ext:build`), click the reload icon on the extension card
 - `/properties/[id]` — edit fields and overrides, full analysis, mortgage schedule, sensitivity
   heatmap, notes, status and price history, **share links**.
 - `/calculator` — analyse any property; optional **Save as property**.
+- `/nearby` — enter any address → Schulen, Kindergärten, Supermärkte, ÖPNV, Ärzte, Krankenhäuser,
+  Apotheken, Restaurants, Parks, Banken: everything within 2 km (straight line), or the nearest one
+  if none is that close. Also on each property page (“Nearby (2 km)”, prefilled with its address).
+  Uses OpenStreetMap (Nominatim + Overpass) on click — the address is sent to the public OSM
+  servers; results are cached, **Refresh** re-fetches.
 - `/cities` — city comparison · `/data` — reference data editors · `/settings` — assumptions,
   pipeline statuses, API token.
 

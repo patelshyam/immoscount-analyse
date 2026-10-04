@@ -141,3 +141,16 @@ model ShareLink {
   expiresAt  DateTime?
   revokedAt  DateTime?
 }
+
+/// Cached OpenStreetMap lookup (geocode + nearby places) per normalized address.
+model NearbyLookup {
+  id          String   @id @default(cuid())
+  queryKey    String   @unique
+  address     String
+  lat         Float
+  lon         Float
+  displayName String
+  precision   String
+  results     Json
+  fetchedAt   DateTime @default(now())
+}

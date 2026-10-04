@@ -5,6 +5,7 @@ const NAV = [
   ['/', 'Dashboard'],
   ['/pipeline', 'Pipeline'],
   ['/calculator', 'Calculator'],
+  ['/nearby', 'Nearby'],
   ['/cities', 'Cities'],
   ['/data', 'Data'],
   ['/settings', 'Settings'],
