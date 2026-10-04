@@ -12,6 +12,7 @@ export default tseslint.config(
       '**/dist/**',
       '**/generated/**',
       '**/next-env.d.ts',
+      '**/test/fixtures/**',
     ],
   },
   js.configs.recommended,

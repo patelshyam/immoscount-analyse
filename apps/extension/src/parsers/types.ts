@@ -1,4 +1,4 @@
-import type { PropertyType } from '@immo/calc';
+import type { PropertyType, StateCode } from '@immo/calc';
 
 export type PortalId = 'is24' | 'immowelt';
 export type PageType = 'listing_buy' | 'listing_rent' | 'search' | 'other';
@@ -20,6 +20,8 @@ export interface ParsedListing {
   yearBuilt: number | null;
   postalCode: string | null;
   city: string | null;
+  /** when the page states it (IS24 does); otherwise resolved from the city */
+  state: StateCode | null;
   street: string | null;
   warnings: string[];
 }

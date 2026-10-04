@@ -21,6 +21,7 @@ const LISTING: ParsedListing = {
   yearBuilt: null,
   postalCode: null,
   city: 'Darmstadt',
+  state: null,
   street: null,
   warnings: [],
 };

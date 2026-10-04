@@ -70,7 +70,7 @@ export function Panel(p: PanelProps) {
   );
 
   const mappedState = l.city ? (p.cityStates.get(normalizeCityKey(l.city)) ?? null) : null;
-  const state = stateOverride ?? mappedState;
+  const state = stateOverride ?? l.state ?? mappedState;
   const isApartment = (l.propertyType ?? 'apartment') === 'apartment';
 
   const analysis = useMemo(() => {

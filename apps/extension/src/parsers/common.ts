@@ -34,3 +34,14 @@ export function parseBrokerFee(text: string | null | undefined): number | null {
 }
 
 export const cleanText = (s: string | null | undefined) => s?.replace(/\s+/g, ' ').trim() || null;
+
+/** Value of a `<dt>label</dt><dd>value</dd>` pair whose label matches. */
+export function labelValue(doc: Document | Element, label: RegExp): string | null {
+  for (const dt of doc.querySelectorAll('dt')) {
+    if (!label.test(cleanText(dt.textContent) ?? '')) continue;
+    let dd = dt.nextElementSibling;
+    while (dd && dd.tagName !== 'DD') dd = dd.nextElementSibling;
+    if (dd) return cleanText(dd.textContent);
+  }
+  return null;
+}
