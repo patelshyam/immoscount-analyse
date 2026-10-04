@@ -1,7 +1,7 @@
 import type { PropertyType, StateCode } from '@immo/calc';
 import { STATE_NAMES } from '@immo/data';
 import { cleanText, labelValue, parseBrokerFee, parseGermanNumber, readJsonLd } from './common';
-import type { ParsedListing, PortalParser } from './types';
+import type { ParsedCard, ParsedListing, PortalParser } from './types';
 
 /*
  * Derived from test/fixtures/is24/listing-buy-*.html (2026-10-04). Order per SPEC §6.3:
@@ -134,6 +134,32 @@ export const is24: PortalParser = {
     };
   },
 
-  // Search pages: Phase 4, needs a search-*.html fixture.
-  parseSearchCards: () => [],
+  /*
+   * From test/fixtures/is24/search-1.html: cards are div[data-obid]; values are unlabeled
+   * <dd>s in [data-testid=attributes] ("679.000 €", "238 m²", "8 Zi.", then plot "350 m²");
+   * address is "[Street, ]City, Kreis".
+   */
+  parseSearchCards(doc): ParsedCard[] {
+    return [...doc.querySelectorAll<HTMLElement>('[data-obid]')].map((element) => {
+      const id = element.dataset.obid || null;
+      const dds = [...element.querySelectorAll('[data-testid="attributes"] dd')].map(
+        (d) => cleanText(d.textContent) ?? '',
+      );
+      const parts = cleanText(
+        element.querySelector('[data-testid="hybridViewAddress"]')?.textContent,
+      )
+        ?.split(',')
+        .map((x) => x.trim());
+      return {
+        externalId: id,
+        url: id ? `https://www.immobilienscout24.de/expose/${id}` : null,
+        price: parseGermanNumber(dds.find((d) => d.includes('€'))),
+        livingArea: parseGermanNumber(dds.find((d) => d.includes('m²'))), // first m² = Wohnfläche
+        rooms: parseGermanNumber(dds.find((d) => /Zi\b/.test(d))),
+        city: parts ? (parts.length >= 2 ? parts.at(-2)! : parts[0]!) || null : null,
+        title: cleanText(element.querySelector('[data-testid="headline"]')?.textContent),
+        element,
+      };
+    });
+  },
 };
