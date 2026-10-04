@@ -28,10 +28,14 @@ pnpm dev        # db in Docker + next dev on 127.0.0.1:3000
 pnpm check      # lint, typecheck, test, build
 ```
 
-## Pages so far
+## Pages
 
-- `/calculator` — enter a property, get the full analysis.
-- `/settings` — assumptions (your interest offer, target yield, …) and the API token for the extension.
+- `/` dashboard · `/pipeline` Kanban · `/properties/[id]` detail (analysis, mortgage schedule,
+  sensitivity, history)
+- `/calculator` — any property, full analysis, optional "Save as property"
+- `/cities` — city comparison · `/data` — rent references (CSV import/export), Grunderwerbsteuer,
+  city → state
+- `/settings` — assumptions, pipeline statuses, API token
 
 ## Reference data
 
@@ -39,8 +43,10 @@ pnpm check      # lint, typecheck, test, build
 - **City → state:** `packages/data/src/city-state.json`, generated from Wikipedia (all cities ≥20,000
   inhabitants). Refresh with `node packages/data/scripts/fetch-cities.mjs`.
 - **Rent reference:** only clearly fake demo rows (10 €/m², marked _placeholder_) are seeded. Fill in
-  real Mietspiegel values per city and size band; template:
-  `packages/data/src/rent-reference.template.csv` (import UI follows in phase 5).
+  real Mietspiegel values per city and size band under **Data** — row by row, or download the
+  **Template**, fill it in a spreadsheet and **Import CSV**. Columns:
+  `city,state,size_min,size_max,eur_per_m2,source,year,notes` (bands: min inclusive, max exclusive,
+  empty max = open). Then **Delete placeholder rows**.
 
 ## Chrome extension
 

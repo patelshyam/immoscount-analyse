@@ -1,8 +1,10 @@
-import { analyze, fmtEur } from '@immo/calc';
+import { fmtEur } from '@immo/calc';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { AnalysisTools } from '@/components/AnalysisTools';
 import { AnalysisView } from '@/components/AnalysisView';
 import { StatusBadge } from '@/components/StatusBadge';
+import { fullAnalysis } from '@/lib/analysis';
 import { db } from '@/lib/db';
 import { propertyLabel, toInput } from '@/lib/properties';
 import { loadAssumptions, loadReference } from '@/lib/reference';
@@ -39,7 +41,7 @@ export default async function PropertyPage({ params }: Props) {
   ]);
   if (!p) notFound();
 
-  const analysis = analyze(toInput(p), assumptions, ref);
+  const { analysis, schedule, sensitivity } = fullAnalysis(toInput(p), assumptions, ref);
   const n = (d: { toString(): string } | null) => (d == null ? null : Number(d));
   const editable: EditableProperty = {
     id: p.id,
@@ -87,7 +89,10 @@ export default async function PropertyPage({ params }: Props) {
 
       <div className="grid gap-6 lg:grid-cols-[340px_1fr]">
         <PropertyEditor property={editable} />
-        <AnalysisView analysis={analysis} />
+        <div className="space-y-4">
+          <AnalysisView analysis={analysis} />
+          <AnalysisTools analysis={analysis} schedule={schedule} sensitivity={sensitivity} />
+        </div>
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">

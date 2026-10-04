@@ -17,3 +17,4 @@ export const BUNDLED_REFERENCE: ReferenceData = {
   transferTax: TRANSFER_TAX.map(({ state, rate, validFrom }) => ({ state, rate, validFrom })),
   rentRefs: DEMO_RENT_REFERENCES,
 };
+export * from './csv';

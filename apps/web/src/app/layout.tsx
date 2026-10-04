@@ -9,6 +9,8 @@ const NAV = [
   ['/', 'Dashboard'],
   ['/pipeline', 'Pipeline'],
   ['/calculator', 'Calculator'],
+  ['/cities', 'Cities'],
+  ['/data', 'Data'],
   ['/settings', 'Settings'],
 ] as const;
 

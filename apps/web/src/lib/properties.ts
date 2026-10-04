@@ -75,6 +75,7 @@ export interface PropertyRow {
   label: string;
   city: string | null;
   price: number;
+  livingArea: number;
   grossYield: number | null;
   netYield: number | null;
   cashflow: number | null;
@@ -105,6 +106,7 @@ export function toRow(p: Property & { status: PipelineStatus }, a: Analysis): Pr
     label: propertyLabel(p),
     city: p.city,
     price: Number(p.price),
+    livingArea: Number(p.livingArea),
     grossYield: a.grossYield,
     netYield: a.netYield,
     cashflow: def?.monthlyCashflow ?? null,

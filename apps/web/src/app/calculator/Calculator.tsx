@@ -1,9 +1,15 @@
 'use client';
 
-import { parseGermanNumber, type Analysis } from '@immo/calc';
+import {
+  parseGermanNumber,
+  type Analysis,
+  type Schedule,
+  type SensitivityResult,
+} from '@immo/calc';
 import { STATE_CODES, STATE_NAMES } from '@immo/data';
 import { useRouter } from 'next/navigation';
 import { useState, type FormEvent } from 'react';
+import { AnalysisTools } from '@/components/AnalysisTools';
 import { AnalysisView } from '@/components/AnalysisView';
 
 const num = (v: FormDataEntryValue | null) => parseGermanNumber(String(v ?? ''));
@@ -27,7 +33,8 @@ function Field({
 }
 
 export function Calculator() {
-  const [analysis, setAnalysis] = useState<Analysis | null>(null);
+  const [result, setResult] = useState<{ analysis: Analysis; schedule: Schedule; sensitivity: SensitivityResult } | null>(null); // prettier-ignore
+  const analysis = result?.analysis ?? null;
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const router = useRouter();
@@ -96,7 +103,7 @@ export function Calculator() {
         );
         return;
       }
-      setAnalysis(json.analysis);
+      setResult(json);
     } catch {
       setError('Request failed — is the app running?');
     } finally {
@@ -163,6 +170,11 @@ export function Calculator() {
               Save as property
             </button>
             <AnalysisView analysis={analysis} />
+            <AnalysisTools
+              analysis={analysis}
+              schedule={result!.schedule}
+              sensitivity={result!.sensitivity}
+            />
           </div>
         ) : (
           <p className="text-sm text-slate-500">Enter a property to see the analysis.</p>
