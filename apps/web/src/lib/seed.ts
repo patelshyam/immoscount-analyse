@@ -1,5 +1,11 @@
 import { randomBytes } from 'node:crypto';
-import { DEFAULT_ASSUMPTIONS, DEFAULT_PIPELINE_STATUSES, TRANSFER_TAX } from '@immo/data';
+import {
+  CITY_STATE,
+  DEFAULT_ASSUMPTIONS,
+  DEFAULT_PIPELINE_STATUSES,
+  DEMO_RENT_REFERENCES,
+  TRANSFER_TAX,
+} from '@immo/data';
 import { db } from './db';
 
 export const newToken = () => randomBytes(32).toString('base64url');
@@ -15,7 +21,7 @@ export async function seed() {
   await db.settings.upsert({
     where: { id: 1 },
     update: {},
-    create: { id: 1, assumptions: DEFAULT_ASSUMPTIONS, apiToken: newToken() },
+    create: { id: 1, assumptions: { ...DEFAULT_ASSUMPTIONS }, apiToken: newToken() },
   });
 
   await db.transferTaxRate.createMany({
@@ -28,4 +34,11 @@ export async function seed() {
       source: r.source,
     })),
   });
+
+  await db.cityState.createMany({ skipDuplicates: true, data: CITY_STATE });
+
+  // Demo rows only into an empty table, so deleting them later sticks.
+  if ((await db.rentReference.count()) === 0) {
+    await db.rentReference.createMany({ data: DEMO_RENT_REFERENCES });
+  }
 }

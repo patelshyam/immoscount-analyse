@@ -28,4 +28,18 @@ pnpm dev        # db in Docker + next dev on 127.0.0.1:3000
 pnpm check      # lint, typecheck, test, build
 ```
 
-Extension, fixtures and rent-data instructions follow in later phases.
+## Pages so far
+
+- `/calculator` — enter a property, get the full analysis.
+- `/settings` — assumptions (your interest offer, target yield, …) and the API token for the extension.
+
+## Reference data
+
+- **Transfer tax:** `packages/data/src/transfer-tax.json` (from SPEC §5b.1, please re-verify).
+- **City → state:** `packages/data/src/city-state.json`, generated from Wikipedia (all cities ≥20,000
+  inhabitants). Refresh with `node packages/data/scripts/fetch-cities.mjs`.
+- **Rent reference:** only clearly fake demo rows (10 €/m², marked _placeholder_) are seeded. Fill in
+  real Mietspiegel values per city and size band; template:
+  `packages/data/src/rent-reference.template.csv` (import UI follows in phase 5).
+
+Extension and fixture instructions follow in later phases.

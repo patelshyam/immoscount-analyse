@@ -1,0 +1,3526 @@
+{
+  "source": "https://de.wikipedia.org/wiki/Liste_der_Groß-_und_Mittelstädte_in_Deutschland (revision 270802594)",
+  "retrievedOn": "2026-10-04",
+  "cities": [
+    {
+      "name": "Berlin",
+      "state": "BE",
+      "pop2020": 3664088
+    },
+    {
+      "name": "Hamburg",
+      "state": "HH",
+      "pop2020": 1852478
+    },
+    {
+      "name": "München",
+      "state": "BY",
+      "pop2020": 1488202
+    },
+    {
+      "name": "Köln",
+      "state": "NW",
+      "pop2020": 1083498
+    },
+    {
+      "name": "Frankfurt am Main",
+      "state": "HE",
+      "pop2020": 764104
+    },
+    {
+      "name": "Düsseldorf",
+      "state": "NW",
+      "pop2020": 620523
+    },
+    {
+      "name": "Leipzig",
+      "state": "SN",
+      "pop2020": 597493
+    },
+    {
+      "name": "Stuttgart",
+      "state": "BW",
+      "pop2020": 630305
+    },
+    {
+      "name": "Dortmund",
+      "state": "NW",
+      "pop2020": 587696
+    },
+    {
+      "name": "Bremen",
+      "state": "HB",
+      "pop2020": 566573
+    },
+    {
+      "name": "Essen",
+      "state": "NW",
+      "pop2020": 582415
+    },
+    {
+      "name": "Dresden",
+      "state": "SN",
+      "pop2020": 556227
+    },
+    {
+      "name": "Nürnberg",
+      "state": "BY",
+      "pop2020": 515543
+    },
+    {
+      "name": "Hannover",
+      "state": "NI",
+      "pop2020": 534049
+    },
+    {
+      "name": "Duisburg",
+      "state": "NW",
+      "pop2020": 495885
+    },
+    {
+      "name": "Bochum",
+      "state": "NW",
+      "pop2020": 364454
+    },
+    {
+      "name": "Wuppertal",
+      "state": "NW",
+      "pop2020": 355004
+    },
+    {
+      "name": "Bielefeld",
+      "state": "NW",
+      "pop2020": 333509
+    },
+    {
+      "name": "Bonn",
+      "state": "NW",
+      "pop2020": 330579
+    },
+    {
+      "name": "Mannheim",
+      "state": "BW",
+      "pop2020": 309721
+    },
+    {
+      "name": "Karlsruhe",
+      "state": "BW",
+      "pop2020": 308436
+    },
+    {
+      "name": "Münster",
+      "state": "NW",
+      "pop2020": 316403
+    },
+    {
+      "name": "Augsburg",
+      "state": "BY",
+      "pop2020": 295830
+    },
+    {
+      "name": "Wiesbaden",
+      "state": "HE",
+      "pop2020": 278609
+    },
+    {
+      "name": "Mönchengladbach",
+      "state": "NW",
+      "pop2020": 259665
+    },
+    {
+      "name": "Gelsenkirchen",
+      "state": "NW",
+      "pop2020": 259105
+    },
+    {
+      "name": "Aachen",
+      "state": "NW",
+      "pop2020": 248878
+    },
+    {
+      "name": "Braunschweig",
+      "state": "NI",
+      "pop2020": 248561
+    },
+    {
+      "name": "Kiel",
+      "state": "SH",
+      "pop2020": 246601
+    },
+    {
+      "name": "Chemnitz",
+      "state": "SN",
+      "pop2020": 244401
+    },
+    {
+      "name": "Magdeburg",
+      "state": "ST",
+      "pop2020": 235775
+    },
+    {
+      "name": "Freiburg im Breisgau",
+      "state": "BW",
+      "pop2020": 230940
+    },
+    {
+      "name": "Krefeld",
+      "state": "NW",
+      "pop2020": 226844
+    },
+    {
+      "name": "Halle (Saale)",
+      "state": "ST",
+      "pop2020": 237865
+    },
+    {
+      "name": "Mainz",
+      "state": "RP",
+      "pop2020": 217123
+    },
+    {
+      "name": "Erfurt",
+      "state": "TH",
+      "pop2020": 213692
+    },
+    {
+      "name": "Lübeck",
+      "state": "SH",
+      "pop2020": 215846
+    },
+    {
+      "name": "Oberhausen",
+      "state": "NW",
+      "pop2020": 209566
+    },
+    {
+      "name": "Rostock",
+      "state": "MV",
+      "pop2020": 209061
+    },
+    {
+      "name": "Kassel",
+      "state": "HE",
+      "pop2020": 201048
+    },
+    {
+      "name": "Hagen",
+      "state": "NW",
+      "pop2020": 188687
+    },
+    {
+      "name": "Potsdam",
+      "state": "BB",
+      "pop2020": 182112
+    },
+    {
+      "name": "Saarbrücken",
+      "state": "SL",
+      "pop2020": 179349
+    },
+    {
+      "name": "Hamm",
+      "state": "NW",
+      "pop2020": 178967
+    },
+    {
+      "name": "Ludwigshafen am Rhein",
+      "state": "RP",
+      "pop2020": 172557
+    },
+    {
+      "name": "Oldenburg",
+      "state": "NI",
+      "pop2020": 169605
+    },
+    {
+      "name": "Mülheim an der Ruhr",
+      "state": "NW",
+      "pop2020": 170921
+    },
+    {
+      "name": "Leverkusen",
+      "state": "NW",
+      "pop2020": 163905
+    },
+    {
+      "name": "Darmstadt",
+      "state": "HE",
+      "pop2020": 159174
+    },
+    {
+      "name": "Osnabrück",
+      "state": "NI",
+      "pop2020": 164223
+    },
+    {
+      "name": "Solingen",
+      "state": "NW",
+      "pop2020": 159193
+    },
+    {
+      "name": "Herne",
+      "state": "NW",
+      "pop2020": 156940
+    },
+    {
+      "name": "Heidelberg",
+      "state": "BW",
+      "pop2020": 158741
+    },
+    {
+      "name": "Paderborn",
+      "state": "NW",
+      "pop2020": 151864
+    },
+    {
+      "name": "Neuss",
+      "state": "NW",
+      "pop2020": 153109
+    },
+    {
+      "name": "Regensburg",
+      "state": "BY",
+      "pop2020": 152270
+    },
+    {
+      "name": "Ingolstadt",
+      "state": "BY",
+      "pop2020": 136952
+    },
+    {
+      "name": "Pforzheim",
+      "state": "BW",
+      "pop2020": 126016
+    },
+    {
+      "name": "Würzburg",
+      "state": "BY",
+      "pop2020": 126954
+    },
+    {
+      "name": "Offenbach am Main",
+      "state": "HE",
+      "pop2020": 130892
+    },
+    {
+      "name": "Heilbronn",
+      "state": "BW",
+      "pop2020": 126458
+    },
+    {
+      "name": "Fürth",
+      "state": "BY",
+      "pop2020": 128223
+    },
+    {
+      "name": "Göttingen",
+      "state": "NI",
+      "pop2020": 116845
+    },
+    {
+      "name": "Ulm",
+      "state": "BW",
+      "pop2020": 126405
+    },
+    {
+      "name": "Wolfsburg",
+      "state": "NI",
+      "pop2020": 123840
+    },
+    {
+      "name": "Reutlingen",
+      "state": "BW",
+      "pop2020": 116031
+    },
+    {
+      "name": "Bremerhaven",
+      "state": "HB",
+      "pop2020": 113557
+    },
+    {
+      "name": "Bottrop",
+      "state": "NW",
+      "pop2020": 117388
+    },
+    {
+      "name": "Erlangen",
+      "state": "BY",
+      "pop2020": 112385
+    },
+    {
+      "name": "Recklinghausen",
+      "state": "NW",
+      "pop2020": 110705
+    },
+    {
+      "name": "Remscheid",
+      "state": "NW",
+      "pop2020": 111516
+    },
+    {
+      "name": "Koblenz",
+      "state": "RP",
+      "pop2020": 113388
+    },
+    {
+      "name": "Bergisch Gladbach",
+      "state": "NW",
+      "pop2020": 111636
+    },
+    {
+      "name": "Jena",
+      "state": "TH",
+      "pop2020": 110731
+    },
+    {
+      "name": "Trier",
+      "state": "RP",
+      "pop2020": 110674
+    },
+    {
+      "name": "Salzgitter",
+      "state": "NI",
+      "pop2020": 103866
+    },
+    {
+      "name": "Siegen",
+      "state": "NW",
+      "pop2020": 101943
+    },
+    {
+      "name": "Moers",
+      "state": "NW",
+      "pop2020": 103487
+    },
+    {
+      "name": "Kaiserslautern",
+      "state": "RP",
+      "pop2020": 99662
+    },
+    {
+      "name": "Gütersloh",
+      "state": "NW",
+      "pop2020": 100664
+    },
+    {
+      "name": "Hanau",
+      "state": "HE",
+      "pop2020": 97137
+    },
+    {
+      "name": "Hildesheim",
+      "state": "NI",
+      "pop2020": 101055
+    },
+    {
+      "name": "Schwerin",
+      "state": "MV",
+      "pop2020": 95609
+    },
+    {
+      "name": "Flensburg",
+      "state": "SH",
+      "pop2020": 89934
+    },
+    {
+      "name": "Esslingen am Neckar",
+      "state": "BW",
+      "pop2020": 92772
+    },
+    {
+      "name": "Gera",
+      "state": "TH",
+      "pop2020": 92126
+    },
+    {
+      "name": "Cottbus",
+      "state": "BB",
+      "pop2020": 98693
+    },
+    {
+      "name": "Düren",
+      "state": "NW",
+      "pop2020": 91272
+    },
+    {
+      "name": "Ludwigsburg",
+      "state": "BW",
+      "pop2020": 93358
+    },
+    {
+      "name": "Tübingen",
+      "state": "BW",
+      "pop2020": 91077
+    },
+    {
+      "name": "Witten",
+      "state": "NW",
+      "pop2020": 95876
+    },
+    {
+      "name": "Iserlohn",
+      "state": "NW",
+      "pop2020": 91815
+    },
+    {
+      "name": "Villingen-Schwenningen",
+      "state": "BW",
+      "pop2020": 85686
+    },
+    {
+      "name": "Ratingen",
+      "state": "NW",
+      "pop2020": 86899
+    },
+    {
+      "name": "Gießen",
+      "state": "HE",
+      "pop2020": 90131
+    },
+    {
+      "name": "Worms",
+      "state": "RP",
+      "pop2020": 83459
+    },
+    {
+      "name": "Marl",
+      "state": "NW",
+      "pop2020": 84312
+    },
+    {
+      "name": "Konstanz",
+      "state": "BW",
+      "pop2020": 84446
+    },
+    {
+      "name": "Zwickau",
+      "state": "SN",
+      "pop2020": 87516
+    },
+    {
+      "name": "Lünen",
+      "state": "NW",
+      "pop2020": 85838
+    },
+    {
+      "name": "Minden",
+      "state": "NW",
+      "pop2020": 81592
+    },
+    {
+      "name": "Norderstedt",
+      "state": "SH",
+      "pop2020": 79115
+    },
+    {
+      "name": "Velbert",
+      "state": "NW",
+      "pop2020": 81564
+    },
+    {
+      "name": "Delmenhorst",
+      "state": "NI",
+      "pop2020": 77503
+    },
+    {
+      "name": "Neumünster",
+      "state": "SH",
+      "pop2020": 79905
+    },
+    {
+      "name": "Viersen",
+      "state": "NW",
+      "pop2020": 77376
+    },
+    {
+      "name": "Rheine",
+      "state": "NW",
+      "pop2020": 76123
+    },
+    {
+      "name": "Bamberg",
+      "state": "BY",
+      "pop2020": 76674
+    },
+    {
+      "name": "Troisdorf",
+      "state": "NW",
+      "pop2020": 74994
+    },
+    {
+      "name": "Gladbeck",
+      "state": "NW",
+      "pop2020": 75518
+    },
+    {
+      "name": "Wilhelmshaven",
+      "state": "NI",
+      "pop2020": 75189
+    },
+    {
+      "name": "Dessau-Roßlau",
+      "state": "ST",
+      "pop2020": 79354
+    },
+    {
+      "name": "Dorsten",
+      "state": "NW",
+      "pop2020": 74515
+    },
+    {
+      "name": "Lüneburg",
+      "state": "NI",
+      "pop2020": 75301
+    },
+    {
+      "name": "Arnsberg",
+      "state": "NW",
+      "pop2020": 73487
+    },
+    {
+      "name": "Detmold",
+      "state": "NW",
+      "pop2020": 74097
+    },
+    {
+      "name": "Brandenburg an der Havel",
+      "state": "BB",
+      "pop2020": 72040
+    },
+    {
+      "name": "Marburg",
+      "state": "HE",
+      "pop2020": 76401
+    },
+    {
+      "name": "Aschaffenburg",
+      "state": "BY",
+      "pop2020": 70858
+    },
+    {
+      "name": "Bocholt",
+      "state": "NW",
+      "pop2020": 71061
+    },
+    {
+      "name": "Bayreuth",
+      "state": "BY",
+      "pop2020": 74048
+    },
+    {
+      "name": "Castrop-Rauxel",
+      "state": "NW",
+      "pop2020": 73126
+    },
+    {
+      "name": "Landshut",
+      "state": "BY",
+      "pop2020": 73065
+    },
+    {
+      "name": "Lüdenscheid",
+      "state": "NW",
+      "pop2020": 71911
+    },
+    {
+      "name": "Lippstadt",
+      "state": "NW",
+      "pop2020": 67793
+    },
+    {
+      "name": "Kempten (Allgäu)",
+      "state": "BY",
+      "pop2020": 68940
+    },
+    {
+      "name": "Aalen",
+      "state": "BW",
+      "pop2020": 68361
+    },
+    {
+      "name": "Neuwied",
+      "state": "RP",
+      "pop2020": 64860
+    },
+    {
+      "name": "Herford",
+      "state": "NW",
+      "pop2020": 66495
+    },
+    {
+      "name": "Celle",
+      "state": "NI",
+      "pop2020": 69399
+    },
+    {
+      "name": "Dinslaken",
+      "state": "NW",
+      "pop2020": 67338
+    },
+    {
+      "name": "Kerpen",
+      "state": "NW",
+      "pop2020": 65802
+    },
+    {
+      "name": "Rüsselsheim am Main",
+      "state": "HE",
+      "pop2020": 65972
+    },
+    {
+      "name": "Rosenheim",
+      "state": "BY",
+      "pop2020": 63591
+    },
+    {
+      "name": "Fulda",
+      "state": "HE",
+      "pop2020": 67980
+    },
+    {
+      "name": "Grevenbroich",
+      "state": "NW",
+      "pop2020": 63941
+    },
+    {
+      "name": "Weimar",
+      "state": "TH",
+      "pop2020": 65098
+    },
+    {
+      "name": "Plauen",
+      "state": "SN",
+      "pop2020": 64014
+    },
+    {
+      "name": "Schwäbisch Gmünd",
+      "state": "BW",
+      "pop2020": 61216
+    },
+    {
+      "name": "Dormagen",
+      "state": "NW",
+      "pop2020": 64500
+    },
+    {
+      "name": "Offenburg",
+      "state": "BW",
+      "pop2020": 60388
+    },
+    {
+      "name": "Neu-Ulm",
+      "state": "BY",
+      "pop2020": 58841
+    },
+    {
+      "name": "Friedrichshafen",
+      "state": "BW",
+      "pop2020": 61221
+    },
+    {
+      "name": "Bergheim",
+      "state": "NW",
+      "pop2020": 61860
+    },
+    {
+      "name": "Hürth",
+      "state": "NW",
+      "pop2020": 59525
+    },
+    {
+      "name": "Sindelfingen",
+      "state": "BW",
+      "pop2020": 64595
+    },
+    {
+      "name": "Wesel",
+      "state": "NW",
+      "pop2020": 60329
+    },
+    {
+      "name": "Herten",
+      "state": "NW",
+      "pop2020": 61860
+    },
+    {
+      "name": "Garbsen",
+      "state": "NI",
+      "pop2020": 61021
+    },
+    {
+      "name": "Euskirchen",
+      "state": "NW",
+      "pop2020": 58466
+    },
+    {
+      "name": "Langenfeld (Rheinland)",
+      "state": "NW",
+      "pop2020": 59112
+    },
+    {
+      "name": "Neubrandenburg",
+      "state": "MV",
+      "pop2020": 63372
+    },
+    {
+      "name": "Göppingen",
+      "state": "BW",
+      "pop2020": 57974
+    },
+    {
+      "name": "Hameln",
+      "state": "NI",
+      "pop2020": 57276
+    },
+    {
+      "name": "Unna",
+      "state": "NW",
+      "pop2020": 58816
+    },
+    {
+      "name": "Stolberg (Rheinland)",
+      "state": "NW",
+      "pop2020": 56377
+    },
+    {
+      "name": "Eschweiler",
+      "state": "NW",
+      "pop2020": 56172
+    },
+    {
+      "name": "Nordhorn",
+      "state": "NI",
+      "pop2020": 53839
+    },
+    {
+      "name": "Waiblingen",
+      "state": "BW",
+      "pop2020": 55526
+    },
+    {
+      "name": "Baden-Baden",
+      "state": "BW",
+      "pop2020": 55449
+    },
+    {
+      "name": "Meerbusch",
+      "state": "NW",
+      "pop2020": 56479
+    },
+    {
+      "name": "Bad Homburg vor der Höhe",
+      "state": "HE",
+      "pop2020": 54092
+    },
+    {
+      "name": "Frankfurt (Oder)",
+      "state": "BB",
+      "pop2020": 57015
+    },
+    {
+      "name": "Lingen (Ems)",
+      "state": "NI",
+      "pop2020": 55232
+    },
+    {
+      "name": "Greifswald",
+      "state": "MV",
+      "pop2020": 59282
+    },
+    {
+      "name": "Sankt Augustin",
+      "state": "NW",
+      "pop2020": 55590
+    },
+    {
+      "name": "Pulheim",
+      "state": "NW",
+      "pop2020": 54636
+    },
+    {
+      "name": "Stralsund",
+      "state": "MV",
+      "pop2020": 59205
+    },
+    {
+      "name": "Görlitz",
+      "state": "SN",
+      "pop2020": 55784
+    },
+    {
+      "name": "Wetzlar",
+      "state": "HE",
+      "pop2020": 53188
+    },
+    {
+      "name": "Hilden",
+      "state": "NW",
+      "pop2020": 55274
+    },
+    {
+      "name": "Schweinfurt",
+      "state": "BY",
+      "pop2020": 53319
+    },
+    {
+      "name": "Bad Kreuznach",
+      "state": "RP",
+      "pop2020": 51310
+    },
+    {
+      "name": "Langenhagen",
+      "state": "NI",
+      "pop2020": 54684
+    },
+    {
+      "name": "Bad Salzuflen",
+      "state": "NW",
+      "pop2020": 54166
+    },
+    {
+      "name": "Passau",
+      "state": "BY",
+      "pop2020": 52415
+    },
+    {
+      "name": "Kleve",
+      "state": "NW",
+      "pop2020": 52359
+    },
+    {
+      "name": "Hattingen",
+      "state": "NW",
+      "pop2020": 54278
+    },
+    {
+      "name": "Neustadt an der Weinstraße",
+      "state": "RP",
+      "pop2020": 53306
+    },
+    {
+      "name": "Wolfenbüttel",
+      "state": "NI",
+      "pop2020": 52121
+    },
+    {
+      "name": "Ahlen",
+      "state": "NW",
+      "pop2020": 52635
+    },
+    {
+      "name": "Menden (Sauerland)",
+      "state": "NW",
+      "pop2020": 52452
+    },
+    {
+      "name": "Frechen",
+      "state": "NW",
+      "pop2020": 51947
+    },
+    {
+      "name": "Ibbenbüren",
+      "state": "NW",
+      "pop2020": 51526
+    },
+    {
+      "name": "Elmshorn",
+      "state": "SH",
+      "pop2020": 49948
+    },
+    {
+      "name": "Gummersbach",
+      "state": "NW",
+      "pop2020": 50978
+    },
+    {
+      "name": "Lörrach",
+      "state": "BW",
+      "pop2020": 49295
+    },
+    {
+      "name": "Lahr/Schwarzwald",
+      "state": "BW",
+      "pop2020": 47551
+    },
+    {
+      "name": "Böblingen",
+      "state": "BW",
+      "pop2020": 50121
+    },
+    {
+      "name": "Peine",
+      "state": "NI",
+      "pop2020": 50249
+    },
+    {
+      "name": "Rastatt",
+      "state": "BW",
+      "pop2020": 50165
+    },
+    {
+      "name": "Heidenheim an der Brenz",
+      "state": "BW",
+      "pop2020": 49342
+    },
+    {
+      "name": "Ravensburg",
+      "state": "BW",
+      "pop2020": 50776
+    },
+    {
+      "name": "Bad Oeynhausen",
+      "state": "NW",
+      "pop2020": 48535
+    },
+    {
+      "name": "Gronau (Westf.)",
+      "state": "NW",
+      "pop2020": 48576
+    },
+    {
+      "name": "Oranienburg",
+      "state": "BB",
+      "pop2020": 45492
+    },
+    {
+      "name": "Cuxhaven",
+      "state": "NI",
+      "pop2020": 48326
+    },
+    {
+      "name": "Leonberg",
+      "state": "BW",
+      "pop2020": 48753
+    },
+    {
+      "name": "Willich",
+      "state": "NW",
+      "pop2020": 50283
+    },
+    {
+      "name": "Bergkamen",
+      "state": "NW",
+      "pop2020": 48919
+    },
+    {
+      "name": "Straubing",
+      "state": "BY",
+      "pop2020": 47612
+    },
+    {
+      "name": "Speyer",
+      "state": "RP",
+      "pop2020": 50741
+    },
+    {
+      "name": "Emden",
+      "state": "NI",
+      "pop2020": 49874
+    },
+    {
+      "name": "Freising",
+      "state": "BY",
+      "pop2020": 48872
+    },
+    {
+      "name": "Alsdorf",
+      "state": "NW",
+      "pop2020": 47330
+    },
+    {
+      "name": "Erftstadt",
+      "state": "NW",
+      "pop2020": 50060
+    },
+    {
+      "name": "Stade",
+      "state": "NI",
+      "pop2020": 47611
+    },
+    {
+      "name": "Herzogenrath",
+      "state": "NW",
+      "pop2020": 46225
+    },
+    {
+      "name": "Landau in der Pfalz",
+      "state": "RP",
+      "pop2020": 46685
+    },
+    {
+      "name": "Frankenthal (Pfalz)",
+      "state": "RP",
+      "pop2020": 48750
+    },
+    {
+      "name": "Hennef (Sieg)",
+      "state": "NW",
+      "pop2020": 47544
+    },
+    {
+      "name": "Singen (Hohentwiel)",
+      "state": "BW",
+      "pop2020": 48033
+    },
+    {
+      "name": "Rheda-Wiedenbrück",
+      "state": "NW",
+      "pop2020": 48672
+    },
+    {
+      "name": "Bornheim",
+      "state": "NW",
+      "pop2020": 48348
+    },
+    {
+      "name": "Dülmen",
+      "state": "NW",
+      "pop2020": 46706
+    },
+    {
+      "name": "Soest",
+      "state": "NW",
+      "pop2020": 47206
+    },
+    {
+      "name": "Bruchsal",
+      "state": "BW",
+      "pop2020": 45364
+    },
+    {
+      "name": "Dachau",
+      "state": "BY",
+      "pop2020": 47680
+    },
+    {
+      "name": "Goslar",
+      "state": "NI",
+      "pop2020": 50184
+    },
+    {
+      "name": "Albstadt",
+      "state": "BW",
+      "pop2020": 45472
+    },
+    {
+      "name": "Neunkirchen",
+      "state": "SL",
+      "pop2020": 46037
+    },
+    {
+      "name": "Oberursel (Taunus)",
+      "state": "HE",
+      "pop2020": 46678
+    },
+    {
+      "name": "Fellbach",
+      "state": "BW",
+      "pop2020": 45430
+    },
+    {
+      "name": "Hof",
+      "state": "BY",
+      "pop2020": 45173
+    },
+    {
+      "name": "Melle",
+      "state": "NI",
+      "pop2020": 46753
+    },
+    {
+      "name": "Kaufbeuren",
+      "state": "BY",
+      "pop2020": 44662
+    },
+    {
+      "name": "Filderstadt",
+      "state": "BW",
+      "pop2020": 45958
+    },
+    {
+      "name": "Bünde",
+      "state": "NW",
+      "pop2020": 45376
+    },
+    {
+      "name": "Falkensee",
+      "state": "BB",
+      "pop2020": 44236
+    },
+    {
+      "name": "Weinheim",
+      "state": "BW",
+      "pop2020": 45335
+    },
+    {
+      "name": "Gotha",
+      "state": "TH",
+      "pop2020": 45273
+    },
+    {
+      "name": "Schwerte",
+      "state": "NW",
+      "pop2020": 46124
+    },
+    {
+      "name": "Brühl",
+      "state": "NW",
+      "pop2020": 43673
+    },
+    {
+      "name": "Rottenburg am Neckar",
+      "state": "BW",
+      "pop2020": 43756
+    },
+    {
+      "name": "Erkelenz",
+      "state": "NW",
+      "pop2020": 43275
+    },
+    {
+      "name": "Rodgau",
+      "state": "HE",
+      "pop2020": 46005
+    },
+    {
+      "name": "Pinneberg",
+      "state": "SH",
+      "pop2020": 43503
+    },
+    {
+      "name": "Lutherstadt Wittenberg",
+      "state": "ST",
+      "pop2020": 45425
+    },
+    {
+      "name": "Bernau bei Berlin",
+      "state": "BB",
+      "pop2020": 40908
+    },
+    {
+      "name": "Neustadt am Rübenberge",
+      "state": "NI",
+      "pop2020": 44586
+    },
+    {
+      "name": "Memmingen",
+      "state": "BY",
+      "pop2020": 44360
+    },
+    {
+      "name": "Lehrte",
+      "state": "NI",
+      "pop2020": 44154
+    },
+    {
+      "name": "Seevetal",
+      "state": "NI",
+      "pop2020": 41889
+    },
+    {
+      "name": "Monheim am Rhein",
+      "state": "NW",
+      "pop2020": 41279
+    },
+    {
+      "name": "Erkrath",
+      "state": "NW",
+      "pop2020": 43878
+    },
+    {
+      "name": "Homburg",
+      "state": "SL",
+      "pop2020": 41790
+    },
+    {
+      "name": "Bietigheim-Bissingen",
+      "state": "BW",
+      "pop2020": 43146
+    },
+    {
+      "name": "Kaarst",
+      "state": "NW",
+      "pop2020": 43615
+    },
+    {
+      "name": "Borken",
+      "state": "NW",
+      "pop2020": 42650
+    },
+    {
+      "name": "Heinsberg",
+      "state": "NW",
+      "pop2020": 42476
+    },
+    {
+      "name": "Wismar",
+      "state": "MV",
+      "pop2020": 42963
+    },
+    {
+      "name": "Gifhorn",
+      "state": "NI",
+      "pop2020": 42939
+    },
+    {
+      "name": "Schwäbisch Hall",
+      "state": "BW",
+      "pop2020": 40679
+    },
+    {
+      "name": "Amberg",
+      "state": "BY",
+      "pop2020": 42052
+    },
+    {
+      "name": "Aurich",
+      "state": "NI",
+      "pop2020": 42268
+    },
+    {
+      "name": "Weiden in der Oberpfalz",
+      "state": "BY",
+      "pop2020": 42535
+    },
+    {
+      "name": "Kirchheim unter Teck",
+      "state": "BW",
+      "pop2020": 40774
+    },
+    {
+      "name": "Siegburg",
+      "state": "NW",
+      "pop2020": 41669
+    },
+    {
+      "name": "Kamen",
+      "state": "NW",
+      "pop2020": 42875
+    },
+    {
+      "name": "Dreieich",
+      "state": "HE",
+      "pop2020": 41996
+    },
+    {
+      "name": "Eberswalde",
+      "state": "BB",
+      "pop2020": 40965
+    },
+    {
+      "name": "Laatzen",
+      "state": "NI",
+      "pop2020": 41854
+    },
+    {
+      "name": "Nettetal",
+      "state": "NW",
+      "pop2020": 42438
+    },
+    {
+      "name": "Buchholz in der Nordheide",
+      "state": "NI",
+      "pop2020": 40091
+    },
+    {
+      "name": "Schorndorf",
+      "state": "BW",
+      "pop2020": 39785
+    },
+    {
+      "name": "Leinfelden-Echterdingen",
+      "state": "BW",
+      "pop2020": 40161
+    },
+    {
+      "name": "Neumarkt in der Oberpfalz",
+      "state": "BY",
+      "pop2020": 40243
+    },
+    {
+      "name": "Freiberg",
+      "state": "SN",
+      "pop2020": 39948
+    },
+    {
+      "name": "Germering",
+      "state": "BY",
+      "pop2020": 40511
+    },
+    {
+      "name": "Hückelhoven",
+      "state": "NW",
+      "pop2020": 40425
+    },
+    {
+      "name": "Wunstorf",
+      "state": "NI",
+      "pop2020": 41480
+    },
+    {
+      "name": "Buxtehude",
+      "state": "NI",
+      "pop2020": 40026
+    },
+    {
+      "name": "Coburg",
+      "state": "BY",
+      "pop2020": 40842
+    },
+    {
+      "name": "Nürtingen",
+      "state": "BW",
+      "pop2020": 41154
+    },
+    {
+      "name": "Bensheim",
+      "state": "HE",
+      "pop2020": 40791
+    },
+    {
+      "name": "Löhne",
+      "state": "NW",
+      "pop2020": 39871
+    },
+    {
+      "name": "Schwabach",
+      "state": "BY",
+      "pop2020": 41056
+    },
+    {
+      "name": "Völklingen",
+      "state": "SL",
+      "pop2020": 39412
+    },
+    {
+      "name": "Ansbach",
+      "state": "BY",
+      "pop2020": 41681
+    },
+    {
+      "name": "Eisenach",
+      "state": "TH",
+      "pop2020": 41970
+    },
+    {
+      "name": "Königswinter",
+      "state": "NW",
+      "pop2020": 41122
+    },
+    {
+      "name": "Nordhausen",
+      "state": "TH",
+      "pop2020": 40969
+    },
+    {
+      "name": "Würselen",
+      "state": "NW",
+      "pop2020": 38496
+    },
+    {
+      "name": "Ahaus",
+      "state": "NW",
+      "pop2020": 39404
+    },
+    {
+      "name": "Pirna",
+      "state": "SN",
+      "pop2020": 38284
+    },
+    {
+      "name": "Lemgo",
+      "state": "NW",
+      "pop2020": 40456
+    },
+    {
+      "name": "Ostfildern",
+      "state": "BW",
+      "pop2020": 39431
+    },
+    {
+      "name": "Kehl",
+      "state": "BW",
+      "pop2020": 36947
+    },
+    {
+      "name": "Mettmann",
+      "state": "NW",
+      "pop2020": 38749
+    },
+    {
+      "name": "Königs Wusterhausen",
+      "state": "BB",
+      "pop2020": 38111
+    },
+    {
+      "name": "Pirmasens",
+      "state": "RP",
+      "pop2020": 40176
+    },
+    {
+      "name": "Freital",
+      "state": "SN",
+      "pop2020": 39405
+    },
+    {
+      "name": "Hofheim am Taunus",
+      "state": "HE",
+      "pop2020": 39905
+    },
+    {
+      "name": "Maintal",
+      "state": "HE",
+      "pop2020": 39307
+    },
+    {
+      "name": "Langen",
+      "state": "HE",
+      "pop2020": 38524
+    },
+    {
+      "name": "Ilmenau",
+      "state": "TH",
+      "pop2020": 38637
+    },
+    {
+      "name": "Backnang",
+      "state": "BW",
+      "pop2020": 37558
+    },
+    {
+      "name": "Ettlingen",
+      "state": "BW",
+      "pop2020": 39401
+    },
+    {
+      "name": "Niederkassel",
+      "state": "NW",
+      "pop2020": 38512
+    },
+    {
+      "name": "Neu-Isenburg",
+      "state": "HE",
+      "pop2020": 38204
+    },
+    {
+      "name": "Coesfeld",
+      "state": "NW",
+      "pop2020": 36182
+    },
+    {
+      "name": "Kamp-Lintfort",
+      "state": "NW",
+      "pop2020": 37635
+    },
+    {
+      "name": "Greven",
+      "state": "NW",
+      "pop2020": 37709
+    },
+    {
+      "name": "Wesseling",
+      "state": "NW",
+      "pop2020": 36731
+    },
+    {
+      "name": "Haltern am See",
+      "state": "NW",
+      "pop2020": 37845
+    },
+    {
+      "name": "Stendal",
+      "state": "ST",
+      "pop2020": 38778
+    },
+    {
+      "name": "Warendorf",
+      "state": "NW",
+      "pop2020": 37173
+    },
+    {
+      "name": "Saarlouis",
+      "state": "SL",
+      "pop2020": 34409
+    },
+    {
+      "name": "Fürstenfeldbruck",
+      "state": "BY",
+      "pop2020": 36843
+    },
+    {
+      "name": "Erding",
+      "state": "BY",
+      "pop2020": 36455
+    },
+    {
+      "name": "Weißenfels",
+      "state": "ST",
+      "pop2020": 39958
+    },
+    {
+      "name": "Bautzen",
+      "state": "SN",
+      "pop2020": 38006
+    },
+    {
+      "name": "Beckum",
+      "state": "NW",
+      "pop2020": 36637
+    },
+    {
+      "name": "Sinsheim",
+      "state": "BW",
+      "pop2020": 35433
+    },
+    {
+      "name": "Tuttlingen",
+      "state": "BW",
+      "pop2020": 36507
+    },
+    {
+      "name": "Winsen (Luhe)",
+      "state": "NI",
+      "pop2020": 35332
+    },
+    {
+      "name": "Meppen",
+      "state": "NI",
+      "pop2020": 35457
+    },
+    {
+      "name": "Papenburg",
+      "state": "NI",
+      "pop2020": 37551
+    },
+    {
+      "name": "Halberstadt",
+      "state": "ST",
+      "pop2020": 39221
+    },
+    {
+      "name": "Cloppenburg",
+      "state": "NI",
+      "pop2020": 35966
+    },
+    {
+      "name": "Porta Westfalica",
+      "state": "NW",
+      "pop2020": 35734
+    },
+    {
+      "name": "Bitterfeld-Wolfen",
+      "state": "ST",
+      "pop2020": 37568
+    },
+    {
+      "name": "Mühlhausen/Thüringen",
+      "state": "TH",
+      "pop2020": 35799
+    },
+    {
+      "name": "Emsdetten",
+      "state": "NW",
+      "pop2020": 36068
+    },
+    {
+      "name": "Crailsheim",
+      "state": "BW",
+      "pop2020": 34661
+    },
+    {
+      "name": "Bad Vilbel",
+      "state": "HE",
+      "pop2020": 34714
+    },
+    {
+      "name": "Limburg an der Lahn",
+      "state": "HE",
+      "pop2020": 35648
+    },
+    {
+      "name": "Balingen",
+      "state": "BW",
+      "pop2020": 34505
+    },
+    {
+      "name": "Voerde (Niederrhein)",
+      "state": "NW",
+      "pop2020": 36047
+    },
+    {
+      "name": "Dietzenbach",
+      "state": "HE",
+      "pop2020": 34429
+    },
+    {
+      "name": "St. Ingbert",
+      "state": "SL",
+      "pop2020": 35213
+    },
+    {
+      "name": "Deggendorf",
+      "state": "BY",
+      "pop2020": 33750
+    },
+    {
+      "name": "Jülich",
+      "state": "NW",
+      "pop2020": 32336
+    },
+    {
+      "name": "Datteln",
+      "state": "NW",
+      "pop2020": 34714
+    },
+    {
+      "name": "Geldern",
+      "state": "NW",
+      "pop2020": 33760
+    },
+    {
+      "name": "Wedel",
+      "state": "SH",
+      "pop2020": 33935
+    },
+    {
+      "name": "Ingelheim am Rhein",
+      "state": "RP",
+      "pop2020": 35161
+    },
+    {
+      "name": "Goch",
+      "state": "NW",
+      "pop2020": 34531
+    },
+    {
+      "name": "Steinfurt",
+      "state": "NW",
+      "pop2020": 34431
+    },
+    {
+      "name": "Lage",
+      "state": "NW",
+      "pop2020": 34885
+    },
+    {
+      "name": "Rheinfelden (Baden)",
+      "state": "BW",
+      "pop2020": 32919
+    },
+    {
+      "name": "Hemer",
+      "state": "NW",
+      "pop2020": 33863
+    },
+    {
+      "name": "Ahrensburg",
+      "state": "SH",
+      "pop2020": 34052
+    },
+    {
+      "name": "Merseburg",
+      "state": "ST",
+      "pop2020": 33593
+    },
+    {
+      "name": "Korschenbroich",
+      "state": "NW",
+      "pop2020": 33484
+    },
+    {
+      "name": "Seelze",
+      "state": "NI",
+      "pop2020": 34260
+    },
+    {
+      "name": "Viernheim",
+      "state": "HE",
+      "pop2020": 34281
+    },
+    {
+      "name": "Leer",
+      "state": "NI",
+      "pop2020": 34958
+    },
+    {
+      "name": "Biberach an der Riß",
+      "state": "BW",
+      "pop2020": 33510
+    },
+    {
+      "name": "Wermelskirchen",
+      "state": "NW",
+      "pop2020": 34597
+    },
+    {
+      "name": "Herrenberg",
+      "state": "BW",
+      "pop2020": 31818
+    },
+    {
+      "name": "Kornwestheim",
+      "state": "BW",
+      "pop2020": 33743
+    },
+    {
+      "name": "Stuhr",
+      "state": "NI",
+      "pop2020": 33565
+    },
+    {
+      "name": "Suhl",
+      "state": "TH",
+      "pop2020": 36395
+    },
+    {
+      "name": "Geesthacht",
+      "state": "SH",
+      "pop2020": 31160
+    },
+    {
+      "name": "Kempen",
+      "state": "NW",
+      "pop2020": 34537
+    },
+    {
+      "name": "Barsinghausen",
+      "state": "NI",
+      "pop2020": 34394
+    },
+    {
+      "name": "Vechta",
+      "state": "NI",
+      "pop2020": 32894
+    },
+    {
+      "name": "Schwedt/Oder",
+      "state": "BB",
+      "pop2020": 29433
+    },
+    {
+      "name": "Forchheim",
+      "state": "BY",
+      "pop2020": 32374
+    },
+    {
+      "name": "Zweibrücken",
+      "state": "RP",
+      "pop2020": 34001
+    },
+    {
+      "name": "Radebeul",
+      "state": "SN",
+      "pop2020": 33843
+    },
+    {
+      "name": "Achim",
+      "state": "NI",
+      "pop2020": 32084
+    },
+    {
+      "name": "Itzehoe",
+      "state": "SH",
+      "pop2020": 31796
+    },
+    {
+      "name": "Uelzen",
+      "state": "NI",
+      "pop2020": 33685
+    },
+    {
+      "name": "Bad Nauheim",
+      "state": "HE",
+      "pop2020": 32493
+    },
+    {
+      "name": "Nienburg/Weser",
+      "state": "NI",
+      "pop2020": 31443
+    },
+    {
+      "name": "Lampertheim",
+      "state": "HE",
+      "pop2020": 32660
+    },
+    {
+      "name": "Weil am Rhein",
+      "state": "BW",
+      "pop2020": 30009
+    },
+    {
+      "name": "Delbrück",
+      "state": "NW",
+      "pop2020": 32039
+    },
+    {
+      "name": "Fürstenwalde/Spree",
+      "state": "BB",
+      "pop2020": 31992
+    },
+    {
+      "name": "Neuruppin",
+      "state": "BB",
+      "pop2020": 30764
+    },
+    {
+      "name": "Wernigerode",
+      "state": "ST",
+      "pop2020": 32181
+    },
+    {
+      "name": "Emmerich am Rhein",
+      "state": "NW",
+      "pop2020": 30869
+    },
+    {
+      "name": "Radolfzell am Bodensee",
+      "state": "BW",
+      "pop2020": 31530
+    },
+    {
+      "name": "Naumburg (Saale)",
+      "state": "ST",
+      "pop2020": 32053
+    },
+    {
+      "name": "Ganderkesee",
+      "state": "NI",
+      "pop2020": 31502
+    },
+    {
+      "name": "Oer-Erkenschwick",
+      "state": "NW",
+      "pop2020": 31532
+    },
+    {
+      "name": "Mörfelden-Walldorf",
+      "state": "HE",
+      "pop2020": 34799
+    },
+    {
+      "name": "Merzig",
+      "state": "SL",
+      "pop2020": 29700
+    },
+    {
+      "name": "Geestland",
+      "state": "NI",
+      "pop2020": 30966
+    },
+    {
+      "name": "Georgsmarienhütte",
+      "state": "NI",
+      "pop2020": 31778
+    },
+    {
+      "name": "Burgdorf",
+      "state": "NI",
+      "pop2020": 30899
+    },
+    {
+      "name": "Weyhe",
+      "state": "NI",
+      "pop2020": 31011
+    },
+    {
+      "name": "Rheinberg",
+      "state": "NW",
+      "pop2020": 30933
+    },
+    {
+      "name": "Walsrode",
+      "state": "NI",
+      "pop2020": 30220
+    },
+    {
+      "name": "Lohmar",
+      "state": "NW",
+      "pop2020": 30316
+    },
+    {
+      "name": "Altenburg",
+      "state": "TH",
+      "pop2020": 31101
+    },
+    {
+      "name": "Kreuztal",
+      "state": "NW",
+      "pop2020": 30965
+    },
+    {
+      "name": "Bad Hersfeld",
+      "state": "HE",
+      "pop2020": 30039
+    },
+    {
+      "name": "Bernburg (Saale)",
+      "state": "ST",
+      "pop2020": 32257
+    },
+    {
+      "name": "Hoyerswerda",
+      "state": "SN",
+      "pop2020": 31790
+    },
+    {
+      "name": "Friedberg (Hessen)",
+      "state": "HE",
+      "pop2020": 29477
+    },
+    {
+      "name": "Bretten",
+      "state": "BW",
+      "pop2020": 29538
+    },
+    {
+      "name": "Rendsburg",
+      "state": "SH",
+      "pop2020": 28705
+    },
+    {
+      "name": "Schönebeck",
+      "state": "ST",
+      "pop2020": 30387
+    },
+    {
+      "name": "Taunusstein",
+      "state": "HE",
+      "pop2020": 30068
+    },
+    {
+      "name": "Idar-Oberstein",
+      "state": "RP",
+      "pop2020": 28313
+    },
+    {
+      "name": "Neuburg an der Donau",
+      "state": "BY",
+      "pop2020": 29662
+    },
+    {
+      "name": "Werne",
+      "state": "NW",
+      "pop2020": 29588
+    },
+    {
+      "name": "Friedberg",
+      "state": "BY",
+      "pop2020": 29916
+    },
+    {
+      "name": "Haan",
+      "state": "NW",
+      "pop2020": 30263
+    },
+    {
+      "name": "Oelde",
+      "state": "NW",
+      "pop2020": 29133
+    },
+    {
+      "name": "Gevelsberg",
+      "state": "NW",
+      "pop2020": 30733
+    },
+    {
+      "name": "Andernach",
+      "state": "RP",
+      "pop2020": 30132
+    },
+    {
+      "name": "Rietberg",
+      "state": "NW",
+      "pop2020": 29432
+    },
+    {
+      "name": "Winnenden",
+      "state": "BW",
+      "pop2020": 28334
+    },
+    {
+      "name": "Schwandorf",
+      "state": "BY",
+      "pop2020": 29020
+    },
+    {
+      "name": "Osterholz-Scharmbeck",
+      "state": "NI",
+      "pop2020": 30366
+    },
+    {
+      "name": "Werl",
+      "state": "NW",
+      "pop2020": 30702
+    },
+    {
+      "name": "Wedemark",
+      "state": "NI",
+      "pop2020": 29550
+    },
+    {
+      "name": "Ludwigsfelde",
+      "state": "BB",
+      "pop2020": 26936
+    },
+    {
+      "name": "Bad Zwischenahn",
+      "state": "NI",
+      "pop2020": 29129
+    },
+    {
+      "name": "Emmendingen",
+      "state": "BW",
+      "pop2020": 28051
+    },
+    {
+      "name": "Einbeck",
+      "state": "NI",
+      "pop2020": 30449
+    },
+    {
+      "name": "Meschede",
+      "state": "NW",
+      "pop2020": 29696
+    },
+    {
+      "name": "Gaggenau",
+      "state": "BW",
+      "pop2020": 29932
+    },
+    {
+      "name": "Griesheim",
+      "state": "HE",
+      "pop2020": 27703
+    },
+    {
+      "name": "Tönisvorst",
+      "state": "NW",
+      "pop2020": 29249
+    },
+    {
+      "name": "Blankenfelde-Mahlow",
+      "state": "BB",
+      "pop2020": 28606
+    },
+    {
+      "name": "Ennepetal",
+      "state": "NW",
+      "pop2020": 30117
+    },
+    {
+      "name": "Riesa",
+      "state": "SN",
+      "pop2020": 29256
+    },
+    {
+      "name": "Landsberg am Lech",
+      "state": "BY",
+      "pop2020": 29346
+    },
+    {
+      "name": "Mühlheim am Main",
+      "state": "HE",
+      "pop2020": 28534
+    },
+    {
+      "name": "Waltrop",
+      "state": "NW",
+      "pop2020": 29472
+    },
+    {
+      "name": "Mechernich",
+      "state": "NW",
+      "pop2020": 27986
+    },
+    {
+      "name": "Baesweiler",
+      "state": "NW",
+      "pop2020": 27319
+    },
+    {
+      "name": "Rödermark",
+      "state": "HE",
+      "pop2020": 28344
+    },
+    {
+      "name": "Meißen",
+      "state": "SN",
+      "pop2020": 28231
+    },
+    {
+      "name": "Güstrow",
+      "state": "MV",
+      "pop2020": 29083
+    },
+    {
+      "name": "Springe",
+      "state": "NI",
+      "pop2020": 29084
+    },
+    {
+      "name": "Hattersheim am Main",
+      "state": "HE",
+      "pop2020": 27747
+    },
+    {
+      "name": "Wangen im Allgäu",
+      "state": "BW",
+      "pop2020": 26927
+    },
+    {
+      "name": "Rösrath",
+      "state": "NW",
+      "pop2020": 28759
+    },
+    {
+      "name": "Geilenkirchen",
+      "state": "NW",
+      "pop2020": 27518
+    },
+    {
+      "name": "Vaihingen an der Enz",
+      "state": "BW",
+      "pop2020": 29307
+    },
+    {
+      "name": "Arnstadt",
+      "state": "TH",
+      "pop2020": 27072
+    },
+    {
+      "name": "Saalfeld/Saale",
+      "state": "TH",
+      "pop2020": 29071
+    },
+    {
+      "name": "Bühl",
+      "state": "BW",
+      "pop2020": 28889
+    },
+    {
+      "name": "Henstedt-Ulzburg",
+      "state": "SH",
+      "pop2020": 28001
+    },
+    {
+      "name": "Bad Neuenahr-Ahrweiler",
+      "state": "RP",
+      "pop2020": 28634
+    },
+    {
+      "name": "Kevelaer",
+      "state": "NW",
+      "pop2020": 27955
+    },
+    {
+      "name": "Leichlingen (Rheinland)",
+      "state": "NW",
+      "pop2020": 27885
+    },
+    {
+      "name": "Unterschleißheim",
+      "state": "BY",
+      "pop2020": 28824
+    },
+    {
+      "name": "Reinbek",
+      "state": "SH",
+      "pop2020": 28250
+    },
+    {
+      "name": "Lohne (Oldenburg)",
+      "state": "NI",
+      "pop2020": 27259
+    },
+    {
+      "name": "Garmisch-Partenkirchen",
+      "state": "BY",
+      "pop2020": 27253
+    },
+    {
+      "name": "Kelkheim (Taunus)",
+      "state": "HE",
+      "pop2020": 29162
+    },
+    {
+      "name": "Heppenheim (Bergstraße)",
+      "state": "HE",
+      "pop2020": 26218
+    },
+    {
+      "name": "Wegberg",
+      "state": "NW",
+      "pop2020": 28130
+    },
+    {
+      "name": "Zeitz",
+      "state": "ST",
+      "pop2020": 27187
+    },
+    {
+      "name": "Wiesloch",
+      "state": "BW",
+      "pop2020": 26605
+    },
+    {
+      "name": "Höxter",
+      "state": "NW",
+      "pop2020": 28509
+    },
+    {
+      "name": "Schwelm",
+      "state": "NW",
+      "pop2020": 28590
+    },
+    {
+      "name": "Bramsche",
+      "state": "NI",
+      "pop2020": 31225
+    },
+    {
+      "name": "Königsbrunn",
+      "state": "BY",
+      "pop2020": 28075
+    },
+    {
+      "name": "Geislingen an der Steige",
+      "state": "BW",
+      "pop2020": 28400
+    },
+    {
+      "name": "Baunatal",
+      "state": "HE",
+      "pop2020": 27915
+    },
+    {
+      "name": "Strausberg",
+      "state": "BB",
+      "pop2020": 26939
+    },
+    {
+      "name": "Ehingen (Donau)",
+      "state": "BW",
+      "pop2020": 26398
+    },
+    {
+      "name": "Teltow",
+      "state": "BB",
+      "pop2020": 27097
+    },
+    {
+      "name": "Grimma",
+      "state": "SN",
+      "pop2020": 28149
+    },
+    {
+      "name": "Sundern (Sauerland)",
+      "state": "NW",
+      "pop2020": 27554
+    },
+    {
+      "name": "Olching",
+      "state": "BY",
+      "pop2020": 27930
+    },
+    {
+      "name": "Neukirchen-Vluyn",
+      "state": "NW",
+      "pop2020": 27532
+    },
+    {
+      "name": "Verden (Aller)",
+      "state": "NI",
+      "pop2020": 27636
+    },
+    {
+      "name": "Pfaffenhofen an der Ilm",
+      "state": "BY",
+      "pop2020": 26272
+    },
+    {
+      "name": "Butzbach",
+      "state": "HE",
+      "pop2020": 26476
+    },
+    {
+      "name": "Northeim",
+      "state": "NI",
+      "pop2020": 29092
+    },
+    {
+      "name": "Werder (Havel)",
+      "state": "BB",
+      "pop2020": 26662
+    },
+    {
+      "name": "Rheinbach",
+      "state": "NW",
+      "pop2020": 26949
+    },
+    {
+      "name": "Weinstadt",
+      "state": "BW",
+      "pop2020": 26916
+    },
+    {
+      "name": "Achern",
+      "state": "BW",
+      "pop2020": 25615
+    },
+    {
+      "name": "Hamminkeln",
+      "state": "NW",
+      "pop2020": 26962
+    },
+    {
+      "name": "Hohen Neuendorf",
+      "state": "BB",
+      "pop2020": 26380
+    },
+    {
+      "name": "Leimen",
+      "state": "BW",
+      "pop2020": 26862
+    },
+    {
+      "name": "Lübbecke",
+      "state": "NW",
+      "pop2020": 25573
+    },
+    {
+      "name": "Mühlacker",
+      "state": "BW",
+      "pop2020": 26093
+    },
+    {
+      "name": "Overath",
+      "state": "NW",
+      "pop2020": 27124
+    },
+    {
+      "name": "Weiterstadt",
+      "state": "HE",
+      "pop2020": 26064
+    },
+    {
+      "name": "Unterhaching",
+      "state": "BY",
+      "pop2020": 25234
+    },
+    {
+      "name": "Hennigsdorf",
+      "state": "BB",
+      "pop2020": 26559
+    },
+    {
+      "name": "Kulmbach",
+      "state": "BY",
+      "pop2020": 25781
+    },
+    {
+      "name": "Neckarsulm",
+      "state": "BW",
+      "pop2020": 26324
+    },
+    {
+      "name": "Schloß Holte-Stukenbrock",
+      "state": "NW",
+      "pop2020": 26943
+    },
+    {
+      "name": "Zirndorf",
+      "state": "BY",
+      "pop2020": 25748
+    },
+    {
+      "name": "Remseck am Neckar",
+      "state": "BW",
+      "pop2020": 26508
+    },
+    {
+      "name": "Friedrichsdorf",
+      "state": "HE",
+      "pop2020": 25528
+    },
+    {
+      "name": "Wetter (Ruhr)",
+      "state": "NW",
+      "pop2020": 27269
+    },
+    {
+      "name": "Geretsried",
+      "state": "BY",
+      "pop2020": 25380
+    },
+    {
+      "name": "Öhringen",
+      "state": "BW",
+      "pop2020": 24925
+    },
+    {
+      "name": "Waldkraiburg",
+      "state": "BY",
+      "pop2020": 23604
+    },
+    {
+      "name": "Heiligenhaus",
+      "state": "NW",
+      "pop2020": 26301
+    },
+    {
+      "name": "Selm",
+      "state": "NW",
+      "pop2020": 25802
+    },
+    {
+      "name": "Nordenham",
+      "state": "NI",
+      "pop2020": 26102
+    },
+    {
+      "name": "Lauf an der Pegnitz",
+      "state": "BY",
+      "pop2020": 26434
+    },
+    {
+      "name": "Delitzsch",
+      "state": "SN",
+      "pop2020": 24755
+    },
+    {
+      "name": "Idstein",
+      "state": "HE",
+      "pop2020": 25241
+    },
+    {
+      "name": "Lindau (Bodensee)",
+      "state": "BY",
+      "pop2020": 25543
+    },
+    {
+      "name": "Horb am Neckar",
+      "state": "BW",
+      "pop2020": 25092
+    },
+    {
+      "name": "Verl",
+      "state": "NW",
+      "pop2020": 25382
+    },
+    {
+      "name": "Schleswig",
+      "state": "SH",
+      "pop2020": 25322
+    },
+    {
+      "name": "Espelkamp",
+      "state": "NW",
+      "pop2020": 24676
+    },
+    {
+      "name": "Harsewinkel",
+      "state": "NW",
+      "pop2020": 25338
+    },
+    {
+      "name": "Pfungstadt",
+      "state": "HE",
+      "pop2020": 25029
+    },
+    {
+      "name": "Roth",
+      "state": "BY",
+      "pop2020": 25232
+    },
+    {
+      "name": "Bingen am Rhein",
+      "state": "RP",
+      "pop2020": 25736
+    },
+    {
+      "name": "Stutensee",
+      "state": "BW",
+      "pop2020": 24897
+    },
+    {
+      "name": "Groß-Gerau",
+      "state": "HE",
+      "pop2020": 25685
+    },
+    {
+      "name": "Rinteln",
+      "state": "NI",
+      "pop2020": 25487
+    },
+    {
+      "name": "Obertshausen",
+      "state": "HE",
+      "pop2020": 24977
+    },
+    {
+      "name": "St. Wendel",
+      "state": "SL",
+      "pop2020": 25438
+    },
+    {
+      "name": "Aschersleben",
+      "state": "ST",
+      "pop2020": 26737
+    },
+    {
+      "name": "Markkleeberg",
+      "state": "SN",
+      "pop2020": 24664
+    },
+    {
+      "name": "Syke",
+      "state": "NI",
+      "pop2020": 24261
+    },
+    {
+      "name": "Salzkotten",
+      "state": "NW",
+      "pop2020": 25013
+    },
+    {
+      "name": "Brilon",
+      "state": "NW",
+      "pop2020": 25336
+    },
+    {
+      "name": "Wiehl",
+      "state": "NW",
+      "pop2020": 25199
+    },
+    {
+      "name": "Bedburg",
+      "state": "NW",
+      "pop2020": 23743
+    },
+    {
+      "name": "Petershagen",
+      "state": "NW",
+      "pop2020": 25045
+    },
+    {
+      "name": "Sangerhausen",
+      "state": "ST",
+      "pop2020": 25703
+    },
+    {
+      "name": "Waldshut-Tiengen",
+      "state": "BW",
+      "pop2020": 24067
+    },
+    {
+      "name": "Helmstedt",
+      "state": "NI",
+      "pop2020": 25544
+    },
+    {
+      "name": "Lüdinghausen",
+      "state": "NW",
+      "pop2020": 24810
+    },
+    {
+      "name": "Vaterstetten",
+      "state": "BY",
+      "pop2020": 24789
+    },
+    {
+      "name": "Weingarten",
+      "state": "BW",
+      "pop2020": 25158
+    },
+    {
+      "name": "Rottweil",
+      "state": "BW",
+      "pop2020": 24975
+    },
+    {
+      "name": "Bad Oldesloe",
+      "state": "SH",
+      "pop2020": 24784
+    },
+    {
+      "name": "Norden",
+      "state": "NI",
+      "pop2020": 24767
+    },
+    {
+      "name": "Zittau",
+      "state": "SN",
+      "pop2020": 24738
+    },
+    {
+      "name": "Meckenheim",
+      "state": "NW",
+      "pop2020": 24741
+    },
+    {
+      "name": "Bad Honnef",
+      "state": "NW",
+      "pop2020": 25759
+    },
+    {
+      "name": "Warstein",
+      "state": "NW",
+      "pop2020": 24520
+    },
+    {
+      "name": "Meiningen",
+      "state": "TH",
+      "pop2020": 24722
+    },
+    {
+      "name": "Eisenhüttenstadt",
+      "state": "BB",
+      "pop2020": 23373
+    },
+    {
+      "name": "Rathenow",
+      "state": "BB",
+      "pop2020": 24179
+    },
+    {
+      "name": "Calw",
+      "state": "BW",
+      "pop2020": 23716
+    },
+    {
+      "name": "Schmallenberg",
+      "state": "NW",
+      "pop2020": 24806
+    },
+    {
+      "name": "Varel",
+      "state": "NI",
+      "pop2020": 23984
+    },
+    {
+      "name": "Wandlitz",
+      "state": "BB",
+      "pop2020": 23485
+    },
+    {
+      "name": "Starnberg",
+      "state": "BY",
+      "pop2020": 23511
+    },
+    {
+      "name": "Ellwangen (Jagst)",
+      "state": "BW",
+      "pop2020": 24477
+    },
+    {
+      "name": "Rudolstadt",
+      "state": "TH",
+      "pop2020": 24672
+    },
+    {
+      "name": "Freudenstadt",
+      "state": "BW",
+      "pop2020": 23760
+    },
+    {
+      "name": "Olpe",
+      "state": "NW",
+      "pop2020": 24593
+    },
+    {
+      "name": "Mosbach",
+      "state": "BW",
+      "pop2020": 23425
+    },
+    {
+      "name": "Leutkirch im Allgäu",
+      "state": "BW",
+      "pop2020": 23030
+    },
+    {
+      "name": "Herzogenaurach",
+      "state": "BY",
+      "pop2020": 23616
+    },
+    {
+      "name": "Plettenberg",
+      "state": "NW",
+      "pop2020": 24978
+    },
+    {
+      "name": "Haren (Ems)",
+      "state": "NI",
+      "pop2020": 24047
+    },
+    {
+      "name": "Übach-Palenberg",
+      "state": "NW",
+      "pop2020": 23906
+    },
+    {
+      "name": "Sprockhövel",
+      "state": "NW",
+      "pop2020": 24702
+    },
+    {
+      "name": "Bad Mergentheim",
+      "state": "BW",
+      "pop2020": 24034
+    },
+    {
+      "name": "Lennestadt",
+      "state": "NW",
+      "pop2020": 25140
+    },
+    {
+      "name": "Isernhagen",
+      "state": "NI",
+      "pop2020": 24279
+    },
+    {
+      "name": "Husum",
+      "state": "SH",
+      "pop2020": 23249
+    },
+    {
+      "name": "Westerstede",
+      "state": "NI",
+      "pop2020": 23232
+    },
+    {
+      "name": "Döbeln",
+      "state": "SN",
+      "pop2020": 23467
+    },
+    {
+      "name": "Jüchen",
+      "state": "NW",
+      "pop2020": 23516
+    },
+    {
+      "name": "Köthen (Anhalt)",
+      "state": "ST",
+      "pop2020": 25244
+    },
+    {
+      "name": "Nagold",
+      "state": "BW",
+      "pop2020": 22672
+    },
+    {
+      "name": "Ronnenberg",
+      "state": "NI",
+      "pop2020": 24403
+    },
+    {
+      "name": "Alfter",
+      "state": "NW",
+      "pop2020": 23467
+    },
+    {
+      "name": "Senden",
+      "state": "BY",
+      "pop2020": 22587
+    },
+    {
+      "name": "Kaltenkirchen",
+      "state": "SH",
+      "pop2020": 22877
+    },
+    {
+      "name": "Neu Wulmstorf",
+      "state": "NI",
+      "pop2020": 21473
+    },
+    {
+      "name": "Sehnde",
+      "state": "NI",
+      "pop2020": 23554
+    },
+    {
+      "name": "Gersthofen",
+      "state": "BY",
+      "pop2020": 22602
+    },
+    {
+      "name": "Weilheim in Oberbayern",
+      "state": "BY",
+      "pop2020": 22727
+    },
+    {
+      "name": "Gelnhausen",
+      "state": "HE",
+      "pop2020": 23208
+    },
+    {
+      "name": "Limbach-Oberfrohna",
+      "state": "SN",
+      "pop2020": 23711
+    },
+    {
+      "name": "Attendorn",
+      "state": "NW",
+      "pop2020": 24330
+    },
+    {
+      "name": "Hann. Münden",
+      "state": "NI",
+      "pop2020": 23504
+    },
+    {
+      "name": "Moormerland",
+      "state": "NI",
+      "pop2020": 23875
+    },
+    {
+      "name": "Metzingen",
+      "state": "BW",
+      "pop2020": 22117
+    },
+    {
+      "name": "Riedstadt",
+      "state": "HE",
+      "pop2020": 24004
+    },
+    {
+      "name": "Rotenburg (Wümme)",
+      "state": "NI",
+      "pop2020": 22072
+    },
+    {
+      "name": "Warburg",
+      "state": "NW",
+      "pop2020": 22928
+    },
+    {
+      "name": "Bad Kissingen",
+      "state": "BY",
+      "pop2020": 22421
+    },
+    {
+      "name": "Senftenberg",
+      "state": "BB",
+      "pop2020": 23371
+    },
+    {
+      "name": "Bad Soden am Taunus",
+      "state": "HE",
+      "pop2020": 22871
+    },
+    {
+      "name": "Vreden",
+      "state": "NW",
+      "pop2020": 22676
+    },
+    {
+      "name": "Quedlinburg",
+      "state": "ST",
+      "pop2020": 23604
+    },
+    {
+      "name": "Kitzingen",
+      "state": "BY",
+      "pop2020": 22141
+    },
+    {
+      "name": "Neusäß",
+      "state": "BY",
+      "pop2020": 22482
+    },
+    {
+      "name": "Netphen",
+      "state": "NW",
+      "pop2020": 23033
+    },
+    {
+      "name": "Rastede",
+      "state": "NI",
+      "pop2020": 22782
+    },
+    {
+      "name": "Haar",
+      "state": "BY",
+      "pop2020": 21609
+    },
+    {
+      "name": "Salzwedel",
+      "state": "ST",
+      "pop2020": 23306
+    },
+    {
+      "name": "Staßfurt",
+      "state": "ST",
+      "pop2020": 24618
+    },
+    {
+      "name": "Dillenburg",
+      "state": "HE",
+      "pop2020": 23261
+    },
+    {
+      "name": "Burg",
+      "state": "ST",
+      "pop2020": 22240
+    },
+    {
+      "name": "Laupheim",
+      "state": "BW",
+      "pop2020": 22579
+    },
+    {
+      "name": "Wertheim",
+      "state": "BW",
+      "pop2020": 22879
+    },
+    {
+      "name": "Friesoythe",
+      "state": "NI",
+      "pop2020": 22512
+    },
+    {
+      "name": "Überlingen",
+      "state": "BW",
+      "pop2020": 22713
+    },
+    {
+      "name": "Eppingen",
+      "state": "BW",
+      "pop2020": 22024
+    },
+    {
+      "name": "Korbach",
+      "state": "HE",
+      "pop2020": 23438
+    },
+    {
+      "name": "Ottobrunn",
+      "state": "BY",
+      "pop2020": 21881
+    },
+    {
+      "name": "Bad Rappenau",
+      "state": "BW",
+      "pop2020": 21650
+    },
+    {
+      "name": "Herdecke",
+      "state": "NW",
+      "pop2020": 22653
+    },
+    {
+      "name": "Quickborn",
+      "state": "SH",
+      "pop2020": 21659
+    },
+    {
+      "name": "Sonneberg",
+      "state": "TH",
+      "pop2020": 23229
+    },
+    {
+      "name": "Mühldorf am Inn",
+      "state": "BY",
+      "pop2020": 20962
+    },
+    {
+      "name": "Wallenhorst",
+      "state": "NI",
+      "pop2020": 22907
+    },
+    {
+      "name": "Lengerich",
+      "state": "NW",
+      "pop2020": 22511
+    },
+    {
+      "name": "Apolda",
+      "state": "TH",
+      "pop2020": 22209
+    },
+    {
+      "name": "Stadthagen",
+      "state": "NI",
+      "pop2020": 22347
+    },
+    {
+      "name": "Ditzingen",
+      "state": "BW",
+      "pop2020": 24719
+    },
+    {
+      "name": "Soltau",
+      "state": "NI",
+      "pop2020": 21292
+    },
+    {
+      "name": "Karben",
+      "state": "HE",
+      "pop2020": 22562
+    },
+    {
+      "name": "Eschborn",
+      "state": "HE",
+      "pop2020": 21641
+    },
+    {
+      "name": "Edewecht",
+      "state": "NI",
+      "pop2020": 22556
+    },
+    {
+      "name": "Waghäusel",
+      "state": "BW",
+      "pop2020": 21079
+    },
+    {
+      "name": "Bad Salzungen",
+      "state": "TH",
+      "pop2020": 23177
+    },
+    {
+      "name": "Lutherstadt Eisleben",
+      "state": "ST",
+      "pop2020": 22668
+    },
+    {
+      "name": "Eislingen/Fils",
+      "state": "BW",
+      "pop2020": 21243
+    },
+    {
+      "name": "Heide",
+      "state": "SH",
+      "pop2020": 21485
+    },
+    {
+      "name": "Büdingen",
+      "state": "HE",
+      "pop2020": 22808
+    },
+    {
+      "name": "Aichach",
+      "state": "BY",
+      "pop2020": 21488
+    },
+    {
+      "name": "Zülpich",
+      "state": "NW",
+      "pop2020": 20440
+    },
+    {
+      "name": "Schwetzingen",
+      "state": "BW",
+      "pop2020": 21577
+    },
+    {
+      "name": "Donaueschingen",
+      "state": "BW",
+      "pop2020": 22205
+    },
+    {
+      "name": "Waldkirch",
+      "state": "BW",
+      "pop2020": 21801
+    },
+    {
+      "name": "Gauting",
+      "state": "BY",
+      "pop2020": 20687
+    },
+    {
+      "name": "Gardelegen",
+      "state": "ST",
+      "pop2020": 22154
+    },
+    {
+      "name": "Mössingen",
+      "state": "BW",
+      "pop2020": 20494
+    },
+    {
+      "name": "Sonthofen",
+      "state": "BY",
+      "pop2020": 21517
+    },
+    {
+      "name": "Bad Krozingen",
+      "state": "BW",
+      "pop2020": 20783
+    },
+    {
+      "name": "Eckernförde",
+      "state": "SH",
+      "pop2020": 21637
+    },
+    {
+      "name": "Hockenheim",
+      "state": "BW",
+      "pop2020": 21539
+    },
+    {
+      "name": "Zossen",
+      "state": "BB",
+      "pop2020": 20182
+    },
+    {
+      "name": "Germersheim",
+      "state": "RP",
+      "pop2020": 20643
+    },
+    {
+      "name": "Ilsede",
+      "state": "NI",
+      "pop2020": 21866
+    },
+    {
+      "name": "Lindlar",
+      "state": "NW",
+      "pop2020": 21430
+    },
+    {
+      "name": "Wipperfürth",
+      "state": "NW",
+      "pop2020": 20875
+    },
+    {
+      "name": "Osterode am Harz",
+      "state": "NI",
+      "pop2020": 21392
+    },
+    {
+      "name": "Radevormwald",
+      "state": "NW",
+      "pop2020": 21963
+    },
+    {
+      "name": "Rees",
+      "state": "NW",
+      "pop2020": 21030
+    },
+    {
+      "name": "Karlsfeld",
+      "state": "BY",
+      "pop2020": 21813
+    },
+    {
+      "name": "Schifferstadt",
+      "state": "RP",
+      "pop2020": 20432
+    },
+    {
+      "name": "Halle (Westf.)",
+      "state": "NW",
+      "pop2020": 21448
+    },
+    {
+      "name": "Wildeshausen",
+      "state": "NI",
+      "pop2020": 20454
+    },
+    {
+      "name": "Panketal",
+      "state": "BB",
+      "pop2020": 20661
+    },
+    {
+      "name": "Versmold",
+      "state": "NW",
+      "pop2020": 21697
+    },
+    {
+      "name": "Glauchau",
+      "state": "SN",
+      "pop2020": 21965
+    },
+    {
+      "name": "Dillingen/Saar",
+      "state": "SL",
+      "pop2020": 19801
+    },
+    {
+      "name": "Günzburg",
+      "state": "BY",
+      "pop2020": 20958
+    },
+    {
+      "name": "Stadtallendorf",
+      "state": "HE",
+      "pop2020": 21263
+    },
+    {
+      "name": "Elsdorf",
+      "state": "NW",
+      "pop2020": 21745
+    },
+    {
+      "name": "Flörsheim am Main",
+      "state": "HE",
+      "pop2020": 21695
+    },
+    {
+      "name": "Rheinstetten",
+      "state": "BW",
+      "pop2020": 20178
+    },
+    {
+      "name": "Seligenstadt",
+      "state": "HE",
+      "pop2020": 21226
+    },
+    {
+      "name": "Groß-Umstadt",
+      "state": "HE",
+      "pop2020": 21234
+    },
+    {
+      "name": "Xanten",
+      "state": "NW",
+      "pop2020": 21521
+    },
+    {
+      "name": "Westoverledingen",
+      "state": "NI",
+      "pop2020": 21423
+    },
+    {
+      "name": "Luckenwalde",
+      "state": "BB",
+      "pop2020": 20586
+    },
+    {
+      "name": "Neufahrn bei Freising",
+      "state": "BY",
+      "pop2020": 20058
+    },
+    {
+      "name": "Geseke",
+      "state": "NW",
+      "pop2020": 21422
+    },
+    {
+      "name": "Schortens",
+      "state": "NI",
+      "pop2020": 20483
+    },
+    {
+      "name": "Senden",
+      "state": "NW",
+      "pop2020": 20358
+    },
+    {
+      "name": "Traunstein",
+      "state": "BY",
+      "pop2020": 20530
+    },
+    {
+      "name": "Büren",
+      "state": "NW",
+      "pop2020": 21452
+    },
+    {
+      "name": "Bad Waldsee",
+      "state": "BW",
+      "pop2020": 20103
+    },
+    {
+      "name": "Spremberg",
+      "state": "BB",
+      "pop2020": 21749
+    },
+    {
+      "name": "Puchheim",
+      "state": "BY",
+      "pop2020": 21235
+    },
+    {
+      "name": "Dingolfing",
+      "state": "BY",
+      "pop2020": 20003
+    },
+    {
+      "name": "Stadtlohn",
+      "state": "NW",
+      "pop2020": 20290
+    },
+    {
+      "name": "Zerbst/Anhalt",
+      "state": "ST",
+      "pop2020": 21294
+    },
+    {
+      "name": "Wülfrath",
+      "state": "NW",
+      "pop2020": 21003
+    },
+    {
+      "name": "Sondershausen",
+      "state": "TH",
+      "pop2020": 21034
+    },
+    {
+      "name": "Tettnang",
+      "state": "BW",
+      "pop2020": 19589
+    },
+    {
+      "name": "Enger",
+      "state": "NW",
+      "pop2020": 20469
+    },
+    {
+      "name": "Coswig",
+      "state": "SN",
+      "pop2020": 20694
+    },
+    {
+      "name": "Lichtenfels",
+      "state": "BY",
+      "pop2020": 20034
+    },
+    {
+      "name": "Nördlingen",
+      "state": "BY",
+      "pop2020": 20674
+    },
+    {
+      "name": "Schramberg",
+      "state": "BW",
+      "pop2020": 21059
+    },
+    {
+      "name": "Haßloch",
+      "state": "RP",
+      "pop2020": 20195
+    },
+    {
+      "name": "Traunreut",
+      "state": "BY",
+      "pop2020": 20951
+    },
+    {
+      "name": "Ochtrup",
+      "state": "NW",
+      "pop2020": 19673
+    },
+    {
+      "name": "Bruchköbel",
+      "state": "HE",
+      "pop2020": 20512
+    },
+    {
+      "name": "Fröndenberg/Ruhr",
+      "state": "NW",
+      "pop2020": 20566
+    },
+    {
+      "name": "Burgwedel",
+      "state": "NI",
+      "pop2020": 20229
+    },
+    {
+      "name": "Neunkirchen-Seelscheid",
+      "state": "NW",
+      "pop2020": 19698
+    },
+    {
+      "name": "Herborn",
+      "state": "HE",
+      "pop2020": 20473
+    },
+    {
+      "name": "Steinhagen",
+      "state": "NW",
+      "pop2020": 20495
+    },
+    {
+      "name": "Müllheim im Markgräflerland",
+      "state": "BW",
+      "pop2020": 19119
+    },
+    {
+      "name": "Wachtberg",
+      "state": "NW",
+      "pop2020": 20331
+    },
+    {
+      "name": "Waren (Müritz)",
+      "state": "MV",
+      "pop2020": 21057
+    },
+    {
+      "name": "Werdau",
+      "state": "SN",
+      "pop2020": 20471
+    },
+    {
+      "name": "Schopfheim",
+      "state": "BW",
+      "pop2020": 19763
+    },
+    {
+      "name": "Duderstadt",
+      "state": "NI",
+      "pop2020": 20281
+    },
+    {
+      "name": "Lilienthal",
+      "state": "NI",
+      "pop2020": 19859
+    },
+    {
+      "name": "Neustrelitz",
+      "state": "MV",
+      "pop2020": 20128
+    },
+    {
+      "name": "Nidderau",
+      "state": "HE",
+      "pop2020": 20556
+    },
+    {
+      "name": "Borna",
+      "state": "SN",
+      "pop2020": 19120
+    },
+    {
+      "name": "Telgte",
+      "state": "NW",
+      "pop2020": 19841
+    },
+    {
+      "name": "Moosburg an der Isar",
+      "state": "BY",
+      "pop2020": 19464
+    },
+    {
+      "name": "Uetze",
+      "state": "NI",
+      "pop2020": 20272
+    },
+    {
+      "name": "Hörstel",
+      "state": "NW",
+      "pop2020": 20335
+    },
+    {
+      "name": "Pfullingen",
+      "state": "BW",
+      "pop2020": 18778
+    },
+    {
+      "name": "Donauwörth",
+      "state": "BY",
+      "pop2020": 19593
+    },
+    {
+      "name": "Meinerzhagen",
+      "state": "NW",
+      "pop2020": 20529
+    },
+    {
+      "name": "Nottuln",
+      "state": "NW",
+      "pop2020": 19636
+    }
+  ]
+}

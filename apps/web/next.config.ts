@@ -8,7 +8,7 @@ if (existsSync('../../.env')) process.loadEnvFile('../../.env');
 const config: NextConfig = {
   output: 'standalone',
   outputFileTracingRoot: fileURLToPath(new URL('../../', import.meta.url)),
-  transpilePackages: ['@immo/data'],
+  transpilePackages: ['@immo/calc', '@immo/data'],
   poweredByHeader: false,
 };
 

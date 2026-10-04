@@ -18,6 +18,10 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   ...nextVitals.map((c) => ({ ...c, files: ['apps/web/**/*.{ts,tsx}'] })),
   {
+    files: ['**/scripts/**/*.mjs'],
+    languageOptions: { globals: { fetch: 'readonly', URL: 'readonly', console: 'readonly' } },
+  },
+  {
     settings: { next: { rootDir: 'apps/web' } },
     rules: {
       '@typescript-eslint/no-explicit-any': 'error',

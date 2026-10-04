@@ -1,4 +1,4 @@
-import type { Assumptions } from './schemas';
+import type { Assumptions } from '@immo/calc';
 
 // Starting defaults from SPEC §5.2 — editable in Settings, not facts.
 export const DEFAULT_ASSUMPTIONS: Assumptions = {

@@ -5,12 +5,14 @@ WORKDIR /repo
 
 FROM base AS deps
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+COPY packages/calc/package.json packages/calc/
 COPY packages/data/package.json packages/data/
 COPY apps/web/package.json apps/web/
 RUN pnpm install --frozen-lockfile --ignore-scripts --filter @immo/web...
 
 FROM deps AS build
 COPY tsconfig.base.json ./
+COPY packages/calc packages/calc
 COPY packages/data packages/data
 COPY apps/web apps/web
 WORKDIR /repo/apps/web
