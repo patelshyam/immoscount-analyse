@@ -6,6 +6,7 @@ import { browser } from 'wxt/browser';
 import type { ContentScriptContext } from 'wxt/utils/content-script-context';
 import { createShadowRootUi } from 'wxt/utils/content-script-ui/shadow-root';
 import { defineContentScript } from 'wxt/utils/define-content-script';
+import { startBadges } from '@/src/badges';
 import type { Bootstrap } from '@/src/bootstrap';
 import { api, bootstrap, listingPayload } from '@/src/messaging';
 import { Panel } from '@/src/panel/Panel';
@@ -161,8 +162,25 @@ export default defineContentScript({
       const parser = parserFor(url);
       if (!parser) return;
       if ((parser.id === 'is24' && !settings.enableIs24) || (parser.id === 'immowelt' && !settings.enableImmowelt)) return; // prettier-ignore
-      if (parser.pageType(document, url) === 'listing_buy') {
+      const type = parser.pageType(document, url);
+      if (type === 'listing_buy') {
         current = await mountPanel(ctx, parser.parseListing(document, url), settings);
+      } else if (type === 'search' && settings.enableBadges) {
+        const { data } = await bootstrap().catch(() => ({ data: null }));
+        const stop = startBadges(document, (d) => parser.parseSearchCards(d), {
+          source: parser.id,
+          assumptions: data?.assumptions ?? DEFAULT_ASSUMPTIONS,
+          reference: data
+            ? { transferTax: data.transferTax, rentRefs: data.rentRefs }
+            : BUNDLED_REFERENCE,
+          cityStates: data
+            ? new Map(data.cityState.map((r) => [r.cityKey, r.state]))
+            : BUNDLED_CITY_STATES,
+          saved: data?.saved ?? [],
+          statuses: data?.statuses ?? [],
+          exclusionKeywords: settings.exclusionKeywords,
+        });
+        current = { remove: stop };
       }
     };
 
