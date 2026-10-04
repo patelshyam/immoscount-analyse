@@ -1,0 +1,114 @@
+[
+  {
+    "state": "BW",
+    "rate": 0.05,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "BY",
+    "rate": 0.035,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "BE",
+    "rate": 0.06,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "BB",
+    "rate": 0.065,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "HB",
+    "rate": 0.055,
+    "validFrom": "2025-07-01",
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "HH",
+    "rate": 0.055,
+    "validFrom": "2023-01-01",
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "HE",
+    "rate": 0.06,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "MV",
+    "rate": 0.06,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "NI",
+    "rate": 0.05,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "NW",
+    "rate": 0.065,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "RP",
+    "rate": 0.05,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "SL",
+    "rate": 0.065,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "SN",
+    "rate": 0.055,
+    "validFrom": "2023-01-01",
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "ST",
+    "rate": 0.05,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "SH",
+    "rate": 0.065,
+    "validFrom": null,
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  },
+  {
+    "state": "TH",
+    "rate": 0.05,
+    "validFrom": "2024-01-01",
+    "verifiedOn": null,
+    "source": "SPEC.md §5b.1 (to be re-verified)"
+  }
+]

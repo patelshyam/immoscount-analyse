@@ -1,0 +1,8 @@
+SPEC.md
+pnpm-lock.yaml
+**/migrations/**
+**/generated/**
+**/fixtures/**
+.next
+.output
+.wxt

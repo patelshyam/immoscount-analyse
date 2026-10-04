@@ -1,0 +1,9 @@
+**/node_modules
+**/.next
+**/.output
+**/.wxt
+**/dist
+.env
+.git
+apps/extension
+apps/web/src/generated

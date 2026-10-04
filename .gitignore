@@ -1,0 +1,11 @@
+node_modules
+.env
+.next
+.output
+.wxt
+dist
+coverage
+*.tsbuildinfo
+next-env.d.ts
+apps/web/src/generated
+.DS_Store
