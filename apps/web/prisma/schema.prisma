@@ -26,7 +26,7 @@ enum StatusKind {
 }
 
 model Property {
-  id                    String       @id @default(cuid())
+  id                    String         @id @default(cuid())
   source                Source
   externalId            String?
   url                   String?
@@ -36,22 +36,25 @@ model Property {
   postalCode            String?
   city                  String?
   state                 String?
-  price                 Decimal      @db.Decimal(12, 2)
-  livingArea            Decimal      @db.Decimal(8, 2)
-  rooms                 Decimal?     @db.Decimal(4, 1)
-  hausgeldMonthly       Decimal?     @db.Decimal(10, 2)
-  actualColdRentMonthly Decimal?     @db.Decimal(10, 2)
-  rentOverrideMonthly   Decimal?     @db.Decimal(10, 2)
-  brokerFeeOverride     Decimal?     @db.Decimal(6, 5)
-  renovationCost        Decimal      @default(0) @db.Decimal(12, 2)
+  price                 Decimal        @db.Decimal(12, 2)
+  livingArea            Decimal        @db.Decimal(8, 2)
+  rooms                 Decimal?       @db.Decimal(4, 1)
+  hausgeldMonthly       Decimal?       @db.Decimal(10, 2)
+  actualColdRentMonthly Decimal?       @db.Decimal(10, 2)
+  rentOverrideMonthly   Decimal?       @db.Decimal(10, 2)
+  brokerFeeOverride     Decimal?       @db.Decimal(6, 5)
+  renovationCost        Decimal        @default(0) @db.Decimal(12, 2)
   yearBuilt             Int?
   statusId              String
   status                PipelineStatus @relation(fields: [statusId], references: [id])
-  notes                 String       @default("")
+  notes                 String         @default("")
   excludedReason        String?
-  createdAt             DateTime     @default(now())
-  updatedAt             DateTime     @updatedAt
-  lastSeenAt            DateTime     @default(now())
+  /// last nearby search run for this property (kept even if its address text differs)
+  nearbyLookupId        String?
+  nearbyLookup          NearbyLookup?  @relation(fields: [nearbyLookupId], references: [id], onDelete: SetNull)
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+  lastSeenAt            DateTime       @default(now())
 
   snapshots    PropertySnapshot[]
   statusEvents StatusEvent[]
@@ -87,11 +90,11 @@ model StatusEvent {
 }
 
 model PipelineStatus {
-  id         String     @id @default(cuid())
-  name       String     @unique
+  id         String        @id @default(cuid())
+  name       String        @unique
   color      String
   sortOrder  Int
-  kind       StatusKind @default(open)
+  kind       StatusKind    @default(open)
   properties Property[]
   fromEvents StatusEvent[] @relation("fromStatus")
   toEvents   StatusEvent[] @relation("toStatus")
@@ -119,14 +122,14 @@ model CityState {
 }
 
 model RentReference {
-  id            String  @id @default(cuid())
+  id            String   @id @default(cuid())
   city          String
-  sizeMin       Decimal @db.Decimal(8, 2)
+  sizeMin       Decimal  @db.Decimal(8, 2)
   sizeMax       Decimal? @db.Decimal(8, 2)
-  eurPerM2      Decimal @db.Decimal(8, 2)
+  eurPerM2      Decimal  @db.Decimal(8, 2)
   source        String
   year          Int
-  isPlaceholder Boolean @default(false)
+  isPlaceholder Boolean  @default(false)
   notes         String?
 
   @@index([city])
@@ -144,13 +147,16 @@ model ShareLink {
 
 /// Cached OpenStreetMap lookup (geocode + nearby places) per normalized address.
 model NearbyLookup {
-  id          String   @id @default(cuid())
-  queryKey    String   @unique
+  id          String     @id @default(cuid())
+  queryKey    String     @unique
   address     String
   lat         Float
   lon         Float
   displayName String
   precision   String
   results     Json
-  fetchedAt   DateTime @default(now())
+  fetchedAt   DateTime   @default(now())
+  properties  Property[]
+
+  @@index([lat, lon])
 }

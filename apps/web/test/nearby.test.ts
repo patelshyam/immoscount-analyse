@@ -172,24 +172,47 @@ vi.mock('@/lib/nearby/osm', async () => {
   };
 });
 const rows = new Map<string, Record<string, unknown>>();
+const links = new Map<string, string>(); // propertyId → nearbyLookupId
+type Range = { gte: number; lte: number };
 vi.mock('@/lib/db', () => ({
   db: {
     settings: { findUnique: vi.fn(async () => ({ apiToken: 'tok' })) },
     nearbyLookup: {
-      findUnique: vi.fn(
-        async ({ where }: { where: { queryKey: string } }) => rows.get(where.queryKey) ?? null,
+      findUnique: vi.fn(async ({ where }: { where: { queryKey: string } }) => rows.get(where.queryKey) ?? null), // prettier-ignore
+      findFirst: vi.fn(
+        async ({ where }: { where: { lat: Range; lon: Range } }) =>
+          [...rows.values()].find(
+            (r) =>
+              (r.lat as number) >= where.lat.gte &&
+              (r.lat as number) <= where.lat.lte &&
+              (r.lon as number) >= where.lon.gte &&
+              (r.lon as number) <= where.lon.lte,
+          ) ?? null,
       ),
       upsert: vi.fn(
         async ({
           where,
           create,
+          update,
         }: {
           where: { queryKey: string };
           create: Record<string, unknown>;
+          update: Record<string, unknown>;
         }) => {
-          const row = { id: 'n1', ...create };
+          // prettier-ignore
+          const prev = rows.get(where.queryKey);
+          const row = prev ? { ...prev, ...update } : { id: `n${rows.size + 1}`, ...create };
           rows.set(where.queryKey, row);
           return row;
+        },
+      ),
+    },
+    property: {
+      updateMany: vi.fn(
+        async ({ where, data }: { where: { id: string }; data: { nearbyLookupId: string } }) => {
+          // prettier-ignore
+          links.set(where.id, data.nearbyLookupId);
+          return { count: 1 };
         },
       ),
     },
@@ -215,6 +238,7 @@ describe('POST /api/nearby', () => {
   const ADDRESS = 'Frankfurter Straße 120, 63263 Neu-Isenburg';
   beforeEach(() => {
     rows.clear();
+    links.clear();
     geocode.mockReset().mockResolvedValue({ ...ORIGIN, displayName: 'X', precision: 'exact' });
     findNearby.mockReset().mockResolvedValue(groupResults(FIXTURE.elements, ORIGIN));
   });
@@ -238,6 +262,37 @@ describe('POST /api/nearby', () => {
     expect(findNearby).toHaveBeenCalledTimes(1);
     await post({ address: ADDRESS, refresh: true });
     expect(findNearby).toHaveBeenCalledTimes(2);
+  });
+
+  it('different spelling, same spot → geocode only, saved places reused (no new search)', async () => {
+    await post({ address: ADDRESS });
+    const res = await post({ address: 'Frankfurter Str. 120, Neu-Isenburg' }); // other cache key
+    const { result } = await res.json();
+    expect(geocode).toHaveBeenCalledTimes(2);
+    expect(findNearby).toHaveBeenCalledTimes(1);
+    expect(result.fromCache).toBe(true);
+    expect(result.categories).toHaveLength(10);
+    // …and that spelling is now saved too: no geocode next time
+    await post({ address: 'Frankfurter Str. 120, Neu-Isenburg' });
+    expect(geocode).toHaveBeenCalledTimes(2);
+  });
+
+  it('a search from a property page is linked to the property', async () => {
+    const res = await post({ address: 'Garten straße 16 Schöneck', propertyId: 'p1' });
+    const { result } = await res.json();
+    expect(links.get('p1')).toBe(result.id);
+    expect(result.fromCache).toBe(false);
+    // cached search with another property id links that one too, without a new search
+    await post({ address: 'Garten straße 16 Schöneck', propertyId: 'p2' });
+    expect(links.get('p2')).toBe(result.id);
+    expect(findNearby).toHaveBeenCalledTimes(1);
+  });
+
+  it('refresh never reuses a saved result', async () => {
+    await post({ address: ADDRESS });
+    const { result } = await (await post({ address: ADDRESS, refresh: true })).json();
+    expect(findNearby).toHaveBeenCalledTimes(2);
+    expect(result.fromCache).toBe(false);
   });
 
   it('404 when the address is not found; 502 when OSM is unavailable', async () => {

@@ -59,9 +59,12 @@ export function NearbyView({
   initialAddress,
   initial,
   hint,
+  propertyId,
 }: {
   initialAddress: string;
   initial: NearbyResult | null;
+  /** on a property page: the result is linked to it */
+  propertyId?: string;
   /** extra warning, e.g. "listing shows no street" */
   hint?: string;
 }) {
@@ -78,7 +81,7 @@ export function NearbyView({
       const res = await fetch('/api/nearby', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ address, refresh }),
+        body: JSON.stringify({ address, refresh, propertyId }),
       });
       const j = await res.json();
       if (res.ok) setResult(j.result);
@@ -136,7 +139,8 @@ export function NearbyView({
           <p className="text-sm text-slate-600">
             📍 {result.displayName}
             <span className="ml-2 text-xs text-slate-400">
-              fetched {new Date(result.fetchedAt).toLocaleDateString('de-DE')}
+              {result.fromCache ? 'saved result from' : 'searched'}{' '}
+              {new Date(result.fetchedAt).toLocaleDateString('de-DE')} — use Refresh to search again
             </span>
           </p>
           {result.precision !== 'exact' && (

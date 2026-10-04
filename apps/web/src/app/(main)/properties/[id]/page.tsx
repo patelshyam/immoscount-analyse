@@ -8,7 +8,7 @@ import { StatusBadge } from '@/components/StatusBadge';
 import { fullAnalysis } from '@/lib/analysis';
 import { db } from '@/lib/db';
 import { propertyLabel, toInput } from '@/lib/properties';
-import { cachedNearby } from '@/lib/nearby/lookup';
+import { cachedNearby, toNearbyResult } from '@/lib/nearby/lookup';
 import { loadAssumptions, loadReference } from '@/lib/reference';
 import { PropertyEditor, type EditableProperty } from './PropertyEditor';
 import { ShareLinks } from './ShareLinks';
@@ -37,6 +37,7 @@ export default async function PropertyPage({ params }: Props) {
         snapshots: { orderBy: { capturedAt: 'desc' } },
         statusEvents: { orderBy: { at: 'desc' }, include: { fromStatus: true, toStatus: true } },
         shareLinks: { orderBy: { createdAt: 'desc' } },
+        nearbyLookup: true,
       },
     }),
     db.pipelineStatus.findMany({ orderBy: { sortOrder: 'asc' } }),
@@ -49,7 +50,12 @@ export default async function PropertyPage({ params }: Props) {
   const address = [p.street, [p.postalCode, p.city].filter(Boolean).join(' ')]
     .filter(Boolean)
     .join(', ');
-  const nearby = address ? await cachedNearby(address) : null;
+  // The search linked to this property wins (whatever was typed); else a saved search for its address.
+  const nearby = p.nearbyLookup
+    ? toNearbyResult(p.nearbyLookup)
+    : address
+      ? await cachedNearby(address)
+      : null;
   const n = (d: { toString(): string } | null) => (d == null ? null : Number(d));
   const editable: EditableProperty = {
     id: p.id,
@@ -143,7 +149,8 @@ export default async function PropertyPage({ params }: Props) {
       <section className="space-y-2">
         <h2 className="text-lg font-semibold">Nearby (2 km)</h2>
         <NearbyView
-          initialAddress={address}
+          propertyId={p.id}
+          initialAddress={nearby?.address ?? address}
           initial={nearby}
           hint={
             p.street
