@@ -13,6 +13,7 @@
     "db:migrate": "prisma migrate dev"
   },
   "dependencies": {
+    "@dnd-kit/core": "6.3.1",
     "@immo/calc": "workspace:*",
     "@immo/data": "workspace:*",
     "@prisma/adapter-pg": "7.10.0",

@@ -2,6 +2,7 @@
 
 import { parseGermanNumber, type Analysis } from '@immo/calc';
 import { STATE_CODES, STATE_NAMES } from '@immo/data';
+import { useRouter } from 'next/navigation';
 import { useState, type FormEvent } from 'react';
 import { AnalysisView } from '@/components/AnalysisView';
 
@@ -29,6 +30,39 @@ export function Calculator() {
   const [analysis, setAnalysis] = useState<Analysis | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const router = useRouter();
+
+  async function saveAsProperty() {
+    if (!analysis) return;
+    const i = analysis.input;
+    const res = await fetch('/api/properties', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        source: 'manual',
+        propertyType: i.propertyType,
+        city: i.city,
+        state: i.state,
+        price: i.price,
+        livingArea: i.livingArea,
+        rooms: i.rooms,
+        hausgeldMonthly: i.hausgeldMonthly,
+        brokerFeeOverride: i.brokerFeeOverride,
+      }),
+    });
+    if (!res.ok) return setError('Saving failed.');
+    const { id } = await res.json();
+    // Calculator rent / renovation are the user's own figures → store as overrides.
+    await fetch(`/api/properties/${id}`, {
+      method: 'PATCH',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        rentOverrideMonthly: i.rentOverrideMonthly,
+        renovationCost: i.renovationCost,
+      }),
+    });
+    router.push(`/properties/${id}`);
+  }
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -121,7 +155,15 @@ export function Calculator() {
       </form>
       <div>
         {analysis ? (
-          <AnalysisView analysis={analysis} />
+          <div className="space-y-3">
+            <button
+              onClick={saveAsProperty}
+              className="rounded border border-slate-300 bg-white px-3 py-1.5 text-sm hover:bg-slate-50"
+            >
+              Save as property
+            </button>
+            <AnalysisView analysis={analysis} />
+          </div>
         ) : (
           <p className="text-sm text-slate-500">Enter a property to see the analysis.</p>
         )}

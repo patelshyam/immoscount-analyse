@@ -44,8 +44,11 @@ export async function apiFetch<T>(
   }
 }
 
+/** Messages from content script / options page to the service worker. */
 export type Message =
-  { type: 'api'; path: string; method?: string; body?: unknown } | { type: 'testConnection' };
+  | { type: 'api'; path: string; method?: string; body?: unknown }
+  | { type: 'bootstrap'; force?: boolean }
+  | { type: 'testConnection' };
 
 export interface ConnectionResult {
   reachable: boolean;

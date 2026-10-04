@@ -218,3 +218,40 @@
   font-size: 11px;
   color: #94a3b8;
 }
+.ia-save {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+}
+.ia-save select {
+  font: inherit;
+  padding: 3px 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+.ia-saved a {
+  color: #0369a1;
+}
+.ia-primary {
+  font: inherit;
+  font-weight: 600;
+  padding: 5px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #0f172a;
+  color: #fff;
+  cursor: pointer;
+}
+.ia-primary:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.ia-error {
+  width: 100%;
+  color: #b91c1c;
+  font-size: 12px;
+}

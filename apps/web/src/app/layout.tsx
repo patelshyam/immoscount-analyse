@@ -7,6 +7,7 @@ export const metadata: Metadata = { title: 'immo-analyzer' };
 
 const NAV = [
   ['/', 'Dashboard'],
+  ['/pipeline', 'Pipeline'],
   ['/calculator', 'Calculator'],
   ['/settings', 'Settings'],
 ] as const;
@@ -16,8 +17,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="min-h-screen bg-slate-50 text-slate-900 antialiased">
         <header className="border-b border-slate-200 bg-white">
-          <nav className="mx-auto flex max-w-6xl items-center gap-6 px-6 py-3 text-sm">
-            <span className="font-semibold">immo-analyzer</span>
+          <nav className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-1 px-4 py-3 text-sm sm:px-6">
+            <span className="font-semibold whitespace-nowrap">immo-analyzer</span>
             {NAV.map(([href, label]) => (
               <Link key={href} href={href} className="text-slate-600 hover:text-slate-900">
                 {label}

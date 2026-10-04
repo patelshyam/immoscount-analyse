@@ -22,8 +22,10 @@ export interface PanelProps {
   cityStates: ReadonlyMap<string, StateCode>;
   collapsed: boolean;
   onCollapsedChange(collapsed: boolean): void;
-  /** Phase 3: save controls are rendered here */
-  footer?: ReactNode;
+  /** Save controls; receives the resolved state so a save uses what the panel shows. */
+  footer?: (state: StateCode | null) => ReactNode;
+  /** Called when the user picks a state for a city the map doesn't know. */
+  onStatePicked?: (city: string, state: StateCode) => void;
 }
 
 const RENT_LABEL: Record<RentSource, string> = {
@@ -177,9 +179,12 @@ export function Panel(p: PanelProps) {
               <span>State</span>
               <select
                 value={state ?? ''}
-                onChange={(e) =>
-                  setStateOverride((e.currentTarget.value || null) as StateCode | null)
-                }
+                onChange={(e) => {
+                  const picked = (e.currentTarget.value || null) as StateCode | null;
+                  setStateOverride(picked);
+                  if (picked && l.city && !l.state && !mappedState)
+                    p.onStatePicked?.(l.city, picked);
+                }}
               >
                 <option value="">Unknown (highest tax)</option>
                 {STATE_CODES.map((s) => (
@@ -287,7 +292,7 @@ export function Panel(p: PanelProps) {
         </>
       )}
 
-      {p.footer}
+      {p.footer?.(state)}
 
       {warnings.length > 0 && (
         <ul className="ia-warnings">
