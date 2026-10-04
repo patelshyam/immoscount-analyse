@@ -9,3 +9,6 @@ coverage
 next-env.d.ts
 apps/web/src/generated
 .DS_Store
+
+# browser "Save page as… complete" asset folders
+apps/extension/test/fixtures/**/*_files/

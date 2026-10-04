@@ -11,6 +11,9 @@ export default defineConfig({
       'https://www.immowelt.de/*',
       'http://127.0.0.1:3000/*',
       'http://localhost:3000/*',
+      // 3001: dev machine where another project already holds 3000 (DECISIONS #23)
+      'http://127.0.0.1:3001/*',
+      'http://localhost:3001/*',
     ],
   },
 });
