@@ -2,6 +2,7 @@ node_modules
 .env
 .next
 .output
+.claude
 .wxt
 dist
 coverage
